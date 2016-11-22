@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 		!(Handlebars.templates && Handlebars.templates[template]) ? addScript('scripts/compiled-templates/' + template + '.js') : Promise.resolve()
 	])
 	.then(function (data) {
-		parentNode.innerHTML = Handlebars.templates[template]({ items: data[0] });
+		parentNode.innerHTML = Handlebars.templates[template]({ items: data[0].reverse() });
 	})
 	.catch(function (e) {
 		console.log(e);
