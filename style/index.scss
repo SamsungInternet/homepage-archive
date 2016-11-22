@@ -79,7 +79,7 @@ main {
 			flex-wrap: wrap;
 			justify-content: flex-end;
 			overflow: auto;
-			max-height: auto;
+			max-height: none;
 
 			div {
 				flex-grow: 1;
