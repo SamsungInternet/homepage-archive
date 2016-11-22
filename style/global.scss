@@ -18,6 +18,10 @@ body {
 	font-family: 'Samsung One', Helvetica, Arial, sans-serif;
 }
 
+header h1 {
+	padding-left: 0.2em;
+}
+
 header ul {
 
     margin: 0;
@@ -31,14 +35,20 @@ header ul {
 		display: inline-block;
 		background: cornsilk;
 		padding: 1em;
+		width: 100%;
 	}
 }
 
 
 @media (min-width: {{ site.breakpoint }}) {
 
+	header h1 {
+		padding-right: 2em;
+	}
+
 	header ul {
 		flex-direction: row;
 		flex-wrap: wrap;
+		width: auto;
 	}
 }
