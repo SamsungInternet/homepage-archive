@@ -15,8 +15,17 @@ main {
 
 	#widgets {
 		display: flex;
-		flex-direction: column;
-		div { background-color: grey; }
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-content: stretch;
+		align-items: stretch;
+		overflow: auto;
+		max-height: 300px;
+
+		& > div {
+			overflow: auto;
+		}
 	}
 
 	#articles {
@@ -36,6 +45,13 @@ main {
 		background: cornflowerblue;
 		display: flex;
 		flex-direction: column;
+
+		img {
+			float: left;
+			max-width: 16em;
+			max-height: 16em;
+			padding-right: 1em;
+		}
 	}
 }
 
@@ -60,12 +76,15 @@ main {
 			flex-grow: 1;
 			flex-basis: 33%;
 			height: 42%;
-			flex-direction: row;
 			flex-wrap: wrap;
+			justify-content: flex-end;
+			overflow: auto;
+			max-height: auto;
 
 			div {
 				flex-grow: 1;
-				min-width: 15em;
+				min-width: 300px;
+				max-width: 300px;
 			}
 		}
 

@@ -3,7 +3,7 @@
 title: Samsung Internet Developer Hub
 layout: index
 ---
-
+<script src="scripts/handlebars.runtime.min.js" defer></script>
 <div id="row-1">
 	<div class="widget" id="articles">
 	{% for post in site.posts %}
@@ -23,21 +23,10 @@ layout: index
 	{% endfor %}
 	</div>
 	<div id="widgets">
-		<div class="widget">Upcoming Events</div>
-		<div class="widget">Twitter Widget</div>
+		<div class="widget"><iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ada.is_798flqlnghvdh2abjml9vqc8a0%40group.calendar.google.com&amp;color=%23865A5A&amp;ctz=Europe%2FLondon" style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe></div>
+		<div class="widget"><a class="twitter-timeline" data-width="300" data-dnt="true" href="https://twitter.com/samsunginternet">Tweets by samsunginternet</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 	</div>
 </div>
 <div class="widget" id="feeds">
-	<div class="feed-item">
-		<h2>Lorem Ipsum</h2>
-		<p>Lorem ipsum dolor sit amiet, et quiam celery asperagus, and github pages.</p>
-	</div>
-	<div class="feed-item">
-		<h2>Lorem Ipsum</h2>
-		<p>Lorem ipsum dolor sit amiet, et quiam celery asperagus, and github pages.</p>
-	</div>
-	<div class="feed-item">
-		<h2>Lorem Ipsum</h2>
-		<p>Lorem ipsum dolor sit amiet, et quiam celery asperagus, and github pages.</p>
-	</div>
+	<script src="scripts/template.js" data-template="feed-list" data-src="https://feed-service.herokuapp.com/feed?properties=title,description,feedUrl&urls=https://medium.com/feed/samsung-internet-dev/"></script>
 </div>
