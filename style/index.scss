@@ -81,10 +81,18 @@ main {
 			overflow: auto;
 			max-height: none;
 
-			div {
+			& > div {
 				flex-grow: 1;
-				min-width: 300px;
-				max-width: 300px;
+				display: flex;
+				flex-basis: 250px;
+
+				&.feed {
+					flex-direction: column;
+				}
+
+				iframe {
+					flex-grow: 1;
+				}
 			}
 		}
 

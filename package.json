@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:templates": "cp node_modules/handlebars/dist/handlebars.runtime.min.js scripts/ ; handlebars _templates/feed-list.handlebars -f scripts/compiled-templates/feed-list.js",
+    "build:templates": "cp node_modules/handlebars/dist/handlebars.runtime.min.js scripts/ ; find _templates/ -iname *.handlebars -exec sh -c 'handlebars {} -f scripts/compiled-templates/$(basename --suffix=.handlebars {}).js' \\;",
     "build": "npm run build:templates"
   },
   "repository": {
