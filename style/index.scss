@@ -47,7 +47,7 @@ main {
 		}
 
 		div:first-child {
-			background: lightpink;
+			background-color: lightpink;
 		}
 	}
 
@@ -64,10 +64,12 @@ main {
 			padding-right: 1em;
 		}
 	}
-}
 
-.feed-item {
-	padding: 1em;
+	.feed-item {
+		padding: 1em;
+		background-size: cover;
+		background-position: center center;
+	}
 }
 
 @media (min-width: {{ site.breakpoint }}) {
