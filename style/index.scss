@@ -12,6 +12,11 @@ main {
 		flex-direction: column;
 	}
 
+	#row-2 {
+		display: flex;
+		flex-direction: column;
+	}
+
 	#widgets {
 		display: flex;
 		flex-direction: row;
@@ -87,6 +92,13 @@ main {
 			height: 42%;
 		}
 
+		#row-2 {
+			flex-direction: row;
+			flex-shrink: 1;
+			flex-grow: 1;
+			min-height: 0;
+		}
+
 		#widgets {
 			flex-grow: 1;
 			flex-basis: 33%;
@@ -135,7 +147,10 @@ main {
 			overflow-y: auto;
 			justify-content: flex-start;
 			flex-grow: 1;
-			flex-shrink: 1;
+		}
+
+		#hero-graphic {
+			font-size: 3em;
 		}
 	}
 }
