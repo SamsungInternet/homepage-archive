@@ -18,8 +18,28 @@ body {
 	font-family: 'Samsung One', Helvetica, Arial, sans-serif;
 }
 
+a:link, a:active, a:visited{
+	color: #4c3f7f;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #987FFF;
+	text-decoration: underline;
+}
+
 header h1 {
-	padding-left: 0.2em;
+	padding-left: 0.3em;
+}
+
+header a:link, a:active, a:visited{
+	color: #FFF;
+	text-decoration: none;
+}
+
+header a:hover{
+	color: #B5A5FE;
+	text-decoration: underline;
 }
 
 header ul {
