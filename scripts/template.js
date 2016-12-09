@@ -1,6 +1,10 @@
+/* global Promise, Handlebars */
+/* eslint no-var:0 */
+'use strict';
+
 var currentScript = document.currentScript || (function () {
 	var scripts = document.getElementsByTagName( 'script' );
-	return  scripts[ scripts.length - 1 ];
+	return scripts[ scripts.length - 1 ];
 } ());
 
 var template = currentScript.getAttribute('data-template');
@@ -21,7 +25,7 @@ function isOk(response) {
 	if (!response.ok) {
 		return Promise.resolve(response)
 			.then(getBody)
-			.then(parse)
+			.then(parseHTML)
 			.then(function (range) {
 				var message = range.querySelector('#message');
 				throw Error(message.textContent || ('Bad response: ' + response.statusText + ' (' + response.status + ')'));
@@ -34,7 +38,15 @@ function getJSON(response) {
 	return response.json();
 }
 
-document.addEventListener("DOMContentLoaded", function(event) {
+function getBody(response) {
+	return response.body();
+}
+
+function parseHTML(string) {
+	return document.createRange().createContextualFragment(string);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
 
 	// Load the template and the contents
 	Promise.all([
