@@ -31,13 +31,32 @@ h1 {
 	margin: 0;
 }
 
-img {
+img.main {
 	width: 100%;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2em;
+}
+
+.icons img {
+	flex-basis: 5rem;
+	flex-shrink: 1;
+	min-width: 0;
+    width: 5rem;
+    height: 5rem;
 }
 		</style>
 	</head>
 	<body>
-		<img src="/images/SamsungInternetLogo.svg" alt="Samsung Internet Developer Hub">
+		<img class="main" src="/images/SamsungInternetLogo.svg" alt="Samsung Internet Developer Hub">
 		<h1 class="coming-soon">COMING SOON</h1>
+		<div class="icons">
+			<a href="https://twitter.com/samsunginternet"><img class="main" src="/images/twitterLogo.svg" alt="Samsung Internet on Twitter"></a>
+			<a href="https://medium.com/samsung-internet-dev"><img class="main" src="/images/mediumLogo.svg" alt="Samsung Internet on Medium"></a>
+			<a href="https://github.com/samsunginternet"><img class="main" src="/images/githubLogo.svg" alt="Samsung Internet on Github"></a>
+		</div>
 	</body>
 </html>
