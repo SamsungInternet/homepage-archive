@@ -8,20 +8,22 @@ layout: index
 <div id="row-1">
 	<div class="widget" id="articles">
 	{% for post in site.posts %}
-		<div class="feed-item" {{#if forloop.first }}{{#if post.image }}style="background-image:url({{post.image}});"{{/if}}{{/if}}>
-		{% if post.link %}
-			<h2><a class="article-link" href="{{ post.link }}" target="_blank" rel="noopener">{{ post.title }}</a> <span title="External Link" style="font-size: 80%; color: #aaa;">{% if post.external %}{{ post.external }} {% endif %}</span></h2>
-				<article class="feed-item_long-desc"><p>{{ post.long_desc }}</p></article>
-				<article class="feed-item_short-desc"><p>{{ post.short_desc }}</p></article>
-			<time>{{ post.date | date_to_string }}</time>
-		{% else %}
-			<h2><a class="article-link" href="{{ post.url }}">{{ post.title }}</a></h2>
-				<article class="feed-item_long-desc">{% if post.long_desc %}{{ post.long_desc }}{% else %}{{ post.excerpt }}{% endif %}</article>
-				<article class="feed-item_short-desc"><p>{{ post.short_desc }}</p></article>
-			<time>{{ post.date | date_to_string }}</time>
-		{% endif %}
+		<div class="feed-item" {{#if forloop.first }}{{#if post.image }}style="background-color:#231F20;"{{/if}}{{/if}}>
+			<div style="background-image:url({{post.image}});opacity:0.5">
+			{% if post.link %}
+				<h2><a class="article-link" href="{{ post.link }}" target="_blank" rel="noopener">{{ post.title }}</a> <span title="External Link" style="font-size: 80%; color: #aaa;">{% if post.external %}{{ post.external }} {% endif %}</span></h2>
+					<article class="feed-item_long-desc"><p>{{ post.long_desc }}</p></article>
+					<article class="feed-item_short-desc"><p>{{ post.short_desc }}</p></article>
+				<time>{{ post.date | date_to_string }}</time>
+			{% else %}
+				<h2><a class="article-link" href="{{ post.url }}">{{ post.title }}</a></h2>
+					<article class="feed-item_long-desc">{% if post.long_desc %}{{ post.long_desc }}{% else %}{{ post.excerpt }}{% endif %}</article>
+					<article class="feed-item_short-desc"><p>{{ post.short_desc }}</p></article>
+				<time>{{ post.date | date_to_string }}</time>
+			{% endif %}
+			</div>
+		{% endfor %}
 		</div>
-	{% endfor %}
 	</div>
 	<div id="widgets">
 		<!--<div class="widget"><iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ada.is_798flqlnghvdh2abjml9vqc8a0%40group.calendar.google.com&amp;color=%23865A5A&amp;ctz=Europe%2FLondon" style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe></div>-->
