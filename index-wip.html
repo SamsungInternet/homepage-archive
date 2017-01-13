@@ -8,7 +8,7 @@ layout: index
 <div id="row-1">
 	<div class="widget" id="articles">
 	{% for post in site.posts %}
-		<div class="feed-item" {{#if forloop.first }}{{#if post.image }}style="background-color:#231F20;background-image:url({{post.image}});opacity:0.2"{{/if}}{{/if}}>
+		<div class="feed-item" {{#if forloop.first }}{{#if post.image }}style="background-color:#231F20;background-image:url({{post.image}});"{{/if}}{{/if}}>
 		{% if post.link %}
 			<h2><a class="article-link" href="{{ post.link }}" target="_blank" rel="noopener">{{ post.title }}</a> <span title="External Link" style="font-size: 80%; color: #aaa;">{% if post.external %}{{ post.external }} {% endif %}</span></h2>
 				<article class="feed-item_long-desc"><p>{{ post.long_desc }}</p></article>
@@ -36,6 +36,6 @@ layout: index
 		<script src="scripts/template.js" data-template="feed-list" data-src="https://feed-service.herokuapp.com/feed?properties=title,description,feedUrl,link&urls=https://medium.com/feed/samsung-internet-dev/,https://zapier.com/engine/rss/1847352/support-issues/"></script>
 	</div>
 	<div id="hero-graphic">
-		<img src="" />
+		<img src="" style="border-radius: 25px;"/>
 	</div>
 </div>
