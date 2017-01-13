@@ -63,10 +63,11 @@ main {
 
 		img {
 			float: left;
-			max-width: 8em;
-			max-height: 8em;
+			width: 8em;
+			height: 8em;
 			padding-right: 1em;
-			border-radius: 100%;
+			border-radius: 6em;
+			object-fit: cover;
 		}
 	}
 
