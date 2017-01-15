@@ -27,6 +27,7 @@ main {
 		overflow: auto;
 		max-height: 300px;
 		background: #FFF;
+		margin-left: 1em;
 
 		& > div {
 			flex-grow: 1;
@@ -109,6 +110,8 @@ main {
 			justify-content: flex-end;
 			overflow: auto;
 			max-height: none;
+			background: #FFF;
+			margin-left: 1.5em;
 		}
 
 		#articles {
