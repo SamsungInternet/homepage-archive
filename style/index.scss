@@ -26,6 +26,7 @@ main {
 		align-items: stretch;
 		overflow: auto;
 		max-height: 300px;
+		background: #FFF;
 
 		& > div {
 			flex-grow: 1;
