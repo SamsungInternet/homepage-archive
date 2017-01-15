@@ -14,7 +14,7 @@ main {
 	#row-1 {
 		display: flex;
 		flex-direction: column;
-		box-shadow: 0em 0.1em 0.1em 0.1em #5B5154;
+		box-shadow: 0em 0.05em 0.05em 0.05em #5B5154;
 	}
 
 	#row-2 {
@@ -99,7 +99,7 @@ main {
 			flex-direction: row;
 			flex-shrink: 0;
 			height: 42%;
-			box-shadow: 0em 0.1em 0.1em 0.1em #5B5154;
+			box-shadow: 0em 0.05em 0.05em 0.05em #5B5154;
 		}
 
 		#row-2 {
