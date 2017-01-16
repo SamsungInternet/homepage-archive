@@ -8,9 +8,9 @@ layout: index
 <div id="row-1">
 	<div class="widget" id="articles">
 	{% for post in site.posts %}
-		<div class="feed-item" {{#if forloop.first }}{{#if post.image }}style="background-color:#231F20;background-image:url({{post.image}});filter:sepia(100%) hue-rotate(220deg) brightness(.8)"{{/if}}{{/if}}>
+		<div class="feed-item" {{#if forloop.first }}{{#if post.image }}style="background-color:#231F20;background-image:url({{post.image}});filter:sepia(100%) hue-rotate(220deg) brightness(.8);"{{/if}}{{/if}}>
 		{% if post.link %}
-			<h2><a class="article-link" href="{{ post.link }}" target="_blank" rel="noopener">{{ post.title }}</a> <span title="External Link" style="font-size: 80%; color: #aaa;">{% if post.external %}{{ post.external }} {% endif %}</span></h2>
+			<h2><a class="article-link w-bg" href="{{ post.link }}" target="_blank" rel="noopener">{{ post.title }}</a> <span title="External Link" style="font-size: 80%; color: #aaa;">{% if post.external %}{{ post.external }} {% endif %}</span></h2>
 				<article class="feed-item_long-desc"><p>{{ post.long_desc }}</p></article>
 				<article class="feed-item_short-desc"><p>{{ post.short_desc }}</p></article>
 			<time>{{ post.date | date_to_string }}</time>

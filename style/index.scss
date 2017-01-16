@@ -50,6 +50,7 @@ main {
 		}
 	}
 
+
 	#articles {
 		display: flex;
 		flex-direction: column;
@@ -100,6 +101,10 @@ main {
 			flex-shrink: 0;
 			height: 42%;
 			box-shadow: 0em 0.08em 0.08em 0.08em #5B5154;
+			a:link, a:active, a:visited{
+				color: white;
+				text-decoration: none;
+			}
 		}
 
 		#row-2 {
