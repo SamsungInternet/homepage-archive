@@ -29,8 +29,6 @@ main {
 		justify-content: space-around;
 		align-content: stretch;
 		align-items: stretch;
-		overflow: auto;
-		background: #FFF;
 		padding-left: 1em;
 
 		& > div {
@@ -121,7 +119,6 @@ main {
 			justify-content: flex-end;
 			overflow: auto;
 			max-height: none;
-			background: #FFF;
 			padding-left: 1.5em;
 		}
 
