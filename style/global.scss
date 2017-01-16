@@ -24,6 +24,11 @@ a:link, a:active, a:visited{
 	text-decoration: none;
 }
 
+headerLogo{
+	margin:1em;
+	max-width: 25%; 
+}
+
 a:hover{
 	color: #987FFF;
 	text-decoration: underline;
