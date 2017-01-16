@@ -1,6 +1,6 @@
 {{#items}}
 <div class="calendar-entry">
 	<h3>{{title}}</h3>
-	<p>{{{description}}}</p>
+	{{#noteq description "at"}}<p>{{{description}}}</p>{{/noteq}}
 </div>
 {{/items}}
