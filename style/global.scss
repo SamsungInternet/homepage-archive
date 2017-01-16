@@ -6,10 +6,22 @@
 	box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ddd;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #666;
+}
+
 html {
 	min-height: 100%;
 	height: 100%;
-	
+	color: black;
 }
 
 body {
@@ -24,9 +36,9 @@ a:link, a:active, a:visited{
 	text-decoration: none;
 }
 
-.headerLogo{
-	margin:1em 1em 0em 1em;
-	max-height: 4em; 
+.headerLogo {
+	padding: 1em 1em 0em 1em;
+	max-height: 4em;
 }
 
 a:hover{
@@ -48,37 +60,105 @@ header a:hover{
 	text-decoration: underline;
 }
 
-header ul {
+header {
+	background: #231F20;
+	position: relative;
 
-    margin: 0;
-    padding: 0;
-    display: flex;
-	flex-direction: column;
+	#hamburger-toggle {
+		visibility: hidden;
+		position: absolute;
+	}
 
-	li {
+	#hamburger-toggle-label {
+		position: relative;
+		font-size: 2rem;
+		line-height: 1rem;
+		background-color: #231F20;
+		color: white;
+		transition: color 0.1s ease, background-color 0.1s ease;
+		cursor: pointer;
+
+		&:before,
+		&:after {
+			font-size: 3rem;
+			width: 1em;
+		}
+		&:before {
+			display: inline-block;
+			content:"≡";
+		}
+		&:after {
+			content:"×";
+			display: none;
+		}
+	}
+
+	#hamburger-toggle:checked + #hamburger-toggle-label {
+		background-color: white;
+		color: black;
+
+		&:before {
+			display: none;
+		}
+		&:after {
+			display: inline-block;
+		}
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		flex-direction: column;
+		position: absolute;
+		display: none;
+		width: 100%;
+	}
+
+	#hamburger-toggle:checked ~ ul {
+		display: flex;
+	}
+
+	li, #hamburger-toggle-label {
 		list-style: none;
 		margin: 0;
 		display: inline-block;
-		padding: 1em;
+		padding: 1rem;
 		width: 100%;
+	}
+
+	li {
+		background-color: white;
+		color: black;
 	}
 }
 
-
 @media (min-width: {{ site.breakpoint }}) {
 
-.headerLogo{
-	margin:1em 1em 0em 1em;
-	max-width: 90%; 
-}
+	.headerLogo{
+		padding:1em 1em 0em 1em;
+		max-width: 90%;
+	}
 
 	header h1 {
 		padding-right: 2em;
 	}
 
-	header ul {
-		flex-direction: row;
-		flex-wrap: wrap;
-		width: auto;
+	header {
+		#hamburger-toggle-label {
+			display: none;
+		}
+
+		ul {
+			position: static;
+			flex-direction: row;
+			flex-wrap: wrap;
+			width: auto;
+			display: flex;
+
+			li {
+				background-color: #231F20;
+				color: white;
+			}
+		}
 	}
 }

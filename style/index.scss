@@ -1,10 +1,6 @@
 ---
 ---
 
-header{
-	background: #231F20; 
-}
-
 main {
 
 	flex-grow: 1;
@@ -36,6 +32,10 @@ main {
 		align-items: stretch;
 		padding-left: 1em;
 		background: #231F20;
+
+		#twitter-widget {
+			display: none;
+		}
 
 		& > div {
 			flex-grow: 1;
@@ -128,6 +128,10 @@ main {
 			overflow: auto;
 			max-height: none;
 			padding-left: 1.5em;
+
+			#twitter-widget {
+				display: flex;
+			}
 		}
 
 		#articles {
