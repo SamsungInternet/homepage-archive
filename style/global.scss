@@ -68,6 +68,11 @@ header ul {
 
 @media (min-width: {{ site.breakpoint }}) {
 
+.headerLogo{
+	margin:1em 1em 0em 1em;
+	max-width: 90%; 
+}
+
 	header h1 {
 		padding-right: 2em;
 	}
