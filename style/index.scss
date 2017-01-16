@@ -31,7 +31,7 @@ main {
 		align-content: stretch;
 		align-items: stretch;
 		padding-left: 1em;
-		background: #231F20;
+		background: #FFF;
 
 		#twitter-widget {
 			display: none;
@@ -128,6 +128,7 @@ main {
 			overflow: auto;
 			max-height: none;
 			padding-left: 1.5em;
+			background: #231F20;
 
 			#twitter-widget {
 				display: flex;
