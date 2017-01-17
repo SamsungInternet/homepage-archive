@@ -1,7 +1,7 @@
 <header>
 	<a href="/"><img src="/images/SamsungInternetLogo.svg" alt="{{ site.name }}" class="headerLogo"/></a>
 	<input id="hamburger-toggle" type="checkbox" />
-	<label id="hamburger-toggle-label" for="hamburger-toggle" aria-label="toggle menu"></label>
+	<label id="hamburger-toggle-label" for="hamburger-toggle" role="button" aria-label="toggle menu" tabindex="0"></label>
 	<ul>
 		<a href="/"><li>Documentation</li></a>
 		<a href="https://github.com/SamsungInternet/support/issues"><li>Developer Support</li></a>
@@ -11,4 +11,5 @@
 		<a href="/"><li>Roadmap</li></a>
 		<a href="/"><li>FAQ</li></a>
 	</ul>
+	<script src="scripts/hamburger-helper.js" defer></script>
 </header>
