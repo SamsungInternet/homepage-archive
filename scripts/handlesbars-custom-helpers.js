@@ -22,3 +22,11 @@ Handlebars.registerHelper('excerpt', function(val, options) {
 	if (output.length < clean.length) output = output + '&hellip;';
 	return output;
 });
+
+Handlebars.registerHelper('grabimage', function(options) {
+	div.innerHTML = options.fn(this);
+	var img = div.querySelector('img');
+	var result = img ? '<img src="' + img.src + '" />' : '';
+	div.innerHTML = '';
+	return result;
+});
