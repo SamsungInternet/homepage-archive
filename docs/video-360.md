@@ -10,7 +10,7 @@ on the `type` attribute.
 ## Example
 
 ```html
-&lt;video src=”/360.webm" type=”video/webm; dimension=360;”&gt;
+<video src=”/360.webm" type=”video/webm; dimension=360;>
 ```
 
 ## Demo

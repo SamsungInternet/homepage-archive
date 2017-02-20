@@ -10,26 +10,17 @@ and provides a more seamless experience.
 
 <img src="/images/docs/custom-tab.png" width="400px" alt="Custom tab demo"/>
 
-## Example
+## Sample code
 
-It is possible to specify a Samsung Internet custom tab by using the package name
-<code>com.sec.android.app.sbrowser</code>. 
-*However, please note that harcoding a specific browser is not advised!*
-
-```java
-// Package name of Samsung Internet
-public static final String SAMSUNG_INTERNET_PACKAGE_NAME = "com.sec.android.app.sbrowser";
-// Action for the service intent.
-public static final String CUSTOM_TABS_CONNECTION = "android.support.customtabs.action.CustomTabsService";
-Intent serviceIntent = new Intent(CUSTOM_TABS_CONNECTION);
-serviceIntent.setPackage(SAMSUNG_INTERNET_PACKAGE_NAME);
-context.bindService(serviceIntent, mServiceConnection, Context.BIND_AUTO_CREATE |
-Context.BIND_WAIVE_PRIORITY);
-```
+It is possible to specify a Samsung Internet custom tab by setting the package name
+`com.sec.android.app.sbrowser` on your `Intent`. However, please note that harcoding a 
+specific browser is not advised.
 
 The recommended approach is to check which apps the user has which can fulfil the Intent
- and hopefully find one that’s been chosen as the default. The [code sample here](https://github.com/SamsungInternet/examples/tree/master/custom-tab-demo) 
-demonstrates this approach:
+ and hopefully find one that’s been chosen as the default. 
+
+The [code sample here](https://github.com/SamsungInternet/examples/tree/master/custom-tab-demo) 
+demonstrates this approach. Here is an extract:
 
 ```java
 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(urlToLoad));
