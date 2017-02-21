@@ -8,7 +8,7 @@ type: doc
 The *Skybox API* for *Samsung Internet for Gear VR* allows you to display a custom 360 degree 
 background.
 
-<img width="600px" src="/images/docs/skybox-api.jpg" alt="Samsung Internet for Gear VR with a custom skybox image"/>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/9NefsqY3uGw" frameborder="0" allowfullscreen></iframe>
 
 ## Examples
 
