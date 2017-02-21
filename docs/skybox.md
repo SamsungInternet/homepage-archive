@@ -1,6 +1,7 @@
 ---
 title: Skybox API
 layout: page
+type: doc
 ---
 # Skybox API (Gear VR)
 
