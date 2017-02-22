@@ -1,18 +1,18 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>{{site.name}}{% if page.title %} - {{page.title}}{% endif %}</title>
+	{% include head.html %}
 	<link href="/style/index.css" rel="stylesheet" type="text/css">
-	<link href="/style/global.css" rel="stylesheet" type="text/css">
-	<link href="/fonts/SamsungOne/fonts.css" rel="stylesheet" type="text/css">
-	<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="theme-color" content="#231F20">
 </head>
+
 <body>
-	{% include header.html %}
-	<main>
+	<main class="main-container">
 		{{ content }}
 	</main>
+	<footer>
+		copyright Samsung Research Institute 2017
+	</footer>
 </body>
 </html>

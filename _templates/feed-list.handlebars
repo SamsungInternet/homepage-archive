@@ -1,7 +1,7 @@
 {{#items}}
 <div class="feed-item">
-	<div class=></div>
+	{{#grabimage}}{{{description}}}{{/grabimage}}
 	<h2><a href="{{link}}">{{title}}</a></h2>
-	<p>{{#grabimage}}{{{description}}}{{/grabimage}}{{#excerpt 80}}{{{description}}}{{/excerpt}}</p>
+	{{#excerpt 80}}{{{description}}}{{/excerpt}}
 </div>
 {{/items}}

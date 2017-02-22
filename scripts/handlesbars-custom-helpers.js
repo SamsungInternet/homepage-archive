@@ -1,4 +1,5 @@
 /* global Handlebars */
+/* eslint no-var: 0*/
 'use strict';
 
 Handlebars.registerHelper('eq', function (val, val2, options) {
@@ -26,7 +27,7 @@ Handlebars.registerHelper('excerpt', function(val, options) {
 Handlebars.registerHelper('grabimage', function(options) {
 	div.innerHTML = options.fn(this);
 	var img = div.querySelector('img');
-	var result = img ? '<img src="' + img.src + '" />' : '';
+	var result = img ? '<img src="' + img.src + '" class="feed-item_image" />' : '';
 	div.innerHTML = '';
 	return result;
 });

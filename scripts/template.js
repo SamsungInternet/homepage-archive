@@ -51,14 +51,16 @@ document.addEventListener('DOMContentLoaded', function () {
 		fetch(self.src).then(isOk).then(getJSON),
 		!(Handlebars.templates && Handlebars.templates[self.template]) ? addScript('scripts/compiled-templates/' + self.template + '.js') : Promise.resolve()
 	])
-	.then(function (data) {
-		self.parentNode.innerHTML = Handlebars.templates[self.template]({ items: data[0].reverse() });
+	.then(function (args) {
+		var json = args[0].reverse().splice(0, self.max ? Number(self.max) : Infinity);
+		self.parentNode.innerHTML = Handlebars.templates[self.template]({ items: json });
 	})
 	.catch(function (e) {
 		console.log(e);
 	});
 }.bind({
 	src: currentScript.getAttribute('data-src'),
+	max: currentScript.getAttribute('data-max'),
 	parentNode: currentScript.parentNode,
 	template: currentScript.getAttribute('data-template')
 }));
