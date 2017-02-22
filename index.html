@@ -1,64 +1,99 @@
+---
+# Variables
+title: Samsung Internet Developer Hub
+layout: index
+---
+
 <!DOCTYPE html>
-<html class="no-js">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Coming Soon!!</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="/fonts/SamsungOne/fonts.css" rel="stylesheet" type="text/css">
-		<style>
-html, body {
-	font-family: 'Samsung One', Helvetica, Arial, sans-serif;
-	height: 100%;
-}
+<html lang="en">
 
-body {
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	align-items; center;
-	flex-direction: column;
-}
+<head>
+	<title>Samsung Internet Developer Hub</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<meta name="theme-color" content="#151213">
+	<link rel="icon" href="images/sdevhubicon.png">
+	<link rel="manifest" href="manifest.json">
+	<script src="js/sdevhub.js"></script>
+</head>
 
-h1 {
-	text-align: center;
-	font-size: 5em;
-	opacity: 0.8;
-	/*transform: translateY(-100%) rotate(30deg);*/
-	color: red;
-	mix-blend-mode: multiply;
-	margin: 0;
-}
-
-img.main {
-	width: 100%;
-}
-
-.icons {
-	display: flex;
-	justify-content: space-around;
-	margin-top: 2em;
-	flex-flow: wrap;
-}
-
-.icons img {
-	flex-basis: 5rem;
-	flex-shrink: 1;
-	min-width: 0;
-    width: 5rem;
-    height: 5rem;
-}
-		</style>
-	</head>
-	<body>
-		<img class="main" src="/images/SamsungInternetLogo.svg" alt="Samsung Internet Developer Hub">
-		<h1 class="coming-soon">COMING SOON</h1>
-		<div class="icons">
-			<a href="https://twitter.com/samsunginternet"><img class="main" src="/images/twitterLogo.svg" alt="Samsung Internet on Twitter"></a>
-			<a href="https://medium.com/samsung-internet-dev"><img class="main" src="/images/mediumLogo.svg" alt="Samsung Internet on Medium"></a>
-			<a href="https://github.com/samsunginternet"><img class="main" src="/images/githubLogo.svg" alt="Samsung Internet on Github"></a>
-			<a href="http://developer.samsung.com/internet" style="color: black;font-size: 2rem;text-align: center; max-width: 8em;">Developer Documentation</a>
+<body>
+	<main class="main-container">
+		<section class="header-section" style="min-height: 100px">
+			<img src="images/sdevhublogo.svg" id="devhublogo" alt="Samsung Internet Developer Hub">
+			<span class="hamburger" onclick="openMenu()">≡</span>
+			<div class="showcase-section">
+				<span class="showcase-text">in the spotlight</span>
+				<h2>Toolbars, keyboards, and the viewports</h2>
+				medium.com
+			</div>
+		</section>
+		<div class="main-header_bg">
 		</div>
-	</body>
+		<section class="norm-section">
+			<h1><img src="images/starLogo.svg" class="titleIcon" alt="Latest"> Latest Blog Posts</h1>
+			<div class="norm-subSection_feed">
+				<div class="feedItem">
+					<img src="images/feed.jpg" class="feed-item_image">
+					<h2>4 ways Virtual Reality can now step up and help the world</h2>
+					<p>For many, it feels as though we are increasingly living in an age of political anger and polarisation.
+						Admittedly, technology has had its…</p>
+				</div>
+				<div class="feedItem">
+					<img src="images/feed1.png" class="feed-item_image">
+					<h2>Prototyping a VR web app with the world’s leading tourism company</h2>
+					<p>For a while now, my colleagues and I have been talking about WebVR — combining the power of virtual reality
+						with the distribution and accessibility of the web. </p>
+				</div>
+			</div>
+			<h1><img src="images/calendarLogo.svg" class="titleIcon" alt="Events"> Events</h1>
+			<div class="norm-subSection_feed">
+				<div class="feedItem">
+					<img src="images/feed.png" class="feed-item_image">
+					<h2>Mobile World Progress</h2>
+					<p>For many, it feels as though we are increasingly living in an age of political anger and polarisation.
+						Admittedly, technology has had its…</p>
+				</div>
+			</div>
+			<h1><img src="images/linksLogo.svg" class="titleIcon" alt="Links"> Useful Links</h1>
+			<div class="norm-subSection_feed">
+				<div class="feedItem">
+					<img src="images/feed.jpg" class="feed-item_image">
+					<h2>4 ways Virtual Reality can now step up and help the world</h2>
+					<p>For many, it feels as though we are increasingly living in an age of political anger and polarisation.
+						Admittedly, technology has had its…</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+			copyright Samsung Research Institute 2017
+		</footer>
+		<div id="burger-menu" class="burger-menu_close">
+			<div id="menu-header">
+				<img src="images/sdevhublogod.svg" id="devhublogo" alt="Samsung Internet Developer Hub">
+				<span class="hamburger" onclick="closeMenu()">×</span>
+			</div>
+			<div id="nav-links">
+				<a href="#">Documentation</a>
+				<a href="#">Developer Support</a>
+				<a href="#">Bug Tracker</a>
+				<a href="#">Demos</a>
+			</div>
+			<div id="socials">
+				<a href="https://twitter.com/samsunginternet">
+					<img src="images/twitterlogo.svg" class="socialicon" alt="Twitter">
+				</a>
+				<a href="https://medium.com/samsung-internet-dev">
+					<img src="images/mediumlogo.svg" class="socialicon" alt="Medium">
+				</a>
+				<a href="https://github.com/samsunginternet">
+					<img src="images/githublogo.svg" class="socialicon" alt="GitHub">
+				</a>
+			</div>
+		</div>
+	</main>
+</body>
+
 </html>
