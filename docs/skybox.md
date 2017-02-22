@@ -2,10 +2,12 @@
 title: Skybox API
 layout: page
 type: doc
+image: https://samsunginter.net/set-skybox/google-earth.jpg
+short_dec: Setting the scene in Virtual Reality
 ---
 # Skybox API (Gear VR)
 
-The *Skybox API* for *Samsung Internet for Gear VR* allows you to display a custom 360 degree 
+The *Skybox API* for *Samsung Internet for Gear VR* allows you to display a custom 360 degree
 background.
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/9NefsqY3uGw" frameborder="0" allowfullscreen></iframe>

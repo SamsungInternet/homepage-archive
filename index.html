@@ -28,7 +28,7 @@ layout: index
 {% if post.image %}<div class="main-header_bg" style="background-image: url({{post.image}});"></div>{% endif %}
 
 <section class="norm">
-	<h1><img src="images/starLogo.svg" class="titleIcon" alt="Latest"> Latest Blog Posts</h1>
+	<h1><img src="images/starLogo.svg" class="title-icon" alt="Latest"> Latest Blog Posts</h1>
 	<div class="norm-subSection_feed">
 {% else %}
 		<div class="feed-item">
@@ -44,7 +44,7 @@ layout: index
 {% endfor %}
 	</div>
 
-	<h1><img src="images/calendarLogo.svg" class="titleIcon" alt="Events"> Events</h1>
+	<h1><img src="images/calendarLogo.svg" class="title-icon" alt="Events"> Events</h1>
 	<div class="norm-subSection_feed">
 		<div class="feed-item">
 			<img src="images/articles/feed.png" class="feed-item_image">
@@ -54,7 +54,7 @@ layout: index
 		</div>
 	</div>
 
-	<h1><img src="images/linksLogo.svg" class="titleIcon" alt="Links"> Useful Links</h1>
+	<h1><img src="images/linksLogo.svg" class="title-icon" alt="Links"> Useful Links</h1>
 	<div class="norm-subSection_feed">
 		<script src="scripts/template.js" data-template="feed-list" data-max="6" data-src="https://feed-service.herokuapp.com/feed?properties=title,description,feedUrl,link&urls=https://medium.com/feed/samsung-internet-dev/"></script>
 	</div>
