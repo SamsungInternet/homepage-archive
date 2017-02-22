@@ -1,0 +1,17 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "name": "Samsung Internet Dev Hub",
+  "description": "Samsung Internet Developer Hub",
+  "short_name": "Samsung Internet Dev Hub",
+  "icons": [ {
+    "src": "images/sdevhubicon.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#987FFF",
+  "background_color": "#151213"
+}
