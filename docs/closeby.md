@@ -2,8 +2,6 @@
 title: CloseBy
 layout: page
 ---
-# CloseBy
-
 CloseBy is Samsung Internet's Physical Web beacon service. It is accessed via the
 Extensions menu. When it is enabled, you may receive a notification when a nearby
 beacon is detected.

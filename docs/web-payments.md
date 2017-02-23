@@ -2,8 +2,6 @@
 title: Web Payments
 layout: page
 ---
-# Web Payments
-
 Samsung Internet supports the [Payment Request API](https://www.w3.org/TR/payment-request/), providing 
 a consistent, easy-to-use check-out experience.
 

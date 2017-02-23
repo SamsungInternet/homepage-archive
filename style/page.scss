@@ -5,7 +5,12 @@ h2 {
   margin-top: 2em;
 }
 
-pre.highlight {
+pre {
+  overflow-x: auto;
   background-color: #eee;
   padding: 10px;
+}
+
+iframe {
+  max-width: 100%;
 }

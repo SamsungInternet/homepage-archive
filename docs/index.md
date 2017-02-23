@@ -1,10 +1,8 @@
 ---
 title: Documentation
 layout: page
+image: /images/docs/blueprints.jpg
 ---
-
-# Documentation
-
 * [360° videos](video-360.html)
 * [CloseBy](closeby.html)
 * [Custom tabs (Android)](custom-tabs.html)
