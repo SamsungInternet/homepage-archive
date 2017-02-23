@@ -14,14 +14,14 @@ image: https://samsunginter.net/images/sdevhublogodark.png
 <section class="header">
 	{% include banner.html %}
 	<div class="showcase">
-		<span class="showcase-text">in the spotlight</span>
+		<span class="showcase-text">In the spotlight</span>
 		{% if post.link %}
 		<h2><a class="article-link w-bg showcase-shadow" href="{{ post.link }}" target="_blank" rel="noopener">{{ post.title }} <img src="images/linkLogoWS.png" alt="go to article" style="width:.9em;"></a></h2>
 		{% else %}
 		<h2><a class="article-link" href="{{ post.url }}">{{ post.title }}</a></h2>
 		{% endif %}
 		<article class="feed-item_short-desc showcase-shadow"><p>{{ post.short_desc }}</p></article>
-		<time>{{ post.date | date_to_string }}</time> {% if post.external %}<span title="External Link" style="font-size: 80%; color: #aaa;">{{ post.external }}</span>{% endif %}
+		<time>{{ post.date | date_to_string }}</time> {% if post.external %}<a class="article-link w-bg showcase-shadow" href="{{ post.link }}" target="_blank" rel="noopener" style="font-size: 80%; color: #aaa;">{{ post.external }}</a>{% endif %}
 	</div>
 </section>
 

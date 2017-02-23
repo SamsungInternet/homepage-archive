@@ -2,7 +2,6 @@
 title: Documentation
 layout: page
 image: /images/header-images/blueprints.jpg
-twitter_image: https://samsunginter.net/images/header-images/blueprints.jpg
 description: Documentation for the Samsung Internet Web Browser and the Samsung Internet for GearVR web browser.
 ---
 <div class="doc-subsection">

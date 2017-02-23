@@ -2,7 +2,6 @@
 title: CloseBy
 layout: page
 image: /images/header-images/lighthouse-beacon.jpg
-twitter_image: https://samsunginter.net/images/header-images/lighthouse-beacon.jpg
 description: Using Physical web Beacons with the Samsung Internet Web Browser
 ---
 CloseBy is Samsung Internet's Physical Web beacon service. It is accessed via the
