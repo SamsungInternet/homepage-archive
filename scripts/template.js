@@ -44,11 +44,8 @@ var currentScript = document.currentScript || (function () {
 
 document.addEventListener('DOMContentLoaded', function () {
 
-	console.log('hello?');
-
 	// Load the template and the contents
 	var self = this;
-	console.log(this.src);
 	Promise.all([
 		fetch(self.src).then(isOk).then(getJSON),
 		!(Handlebars.templates && Handlebars.templates[self.template]) ? addScript('scripts/compiled-templates/' + self.template + '.js') : Promise.resolve()
