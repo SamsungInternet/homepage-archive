@@ -11,5 +11,5 @@ description: Documentation for the Samsung Internet Web Browser and the Samsung 
     <a href="remote-debugging.html"><img src="/images/ico-remote-debug.svg" alt="Remote Debugging"></a>
     <a href="skybox.html"><img src="/images/ico-skybox.svg" alt="Skybox API (Gear VR)"></a>
     <a href="web-payments.html"><img src="/images/ico-payment.svg" alt="WebPayments"></a>
-    <img src="/images/ico-si54.svg" alt="Samsung Internet 5.4">
+    <a href="#"><img src="/images/ico-si54.svg" alt="Samsung Internet 5.4"></a>
 </div>
