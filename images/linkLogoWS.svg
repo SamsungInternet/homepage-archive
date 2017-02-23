@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" width="201" height="190" viewBox="0 0 201.00 190.00" enable-background="new 0 0 201.00 190.00" xml:space="preserve">
+	<filter id="Filter_DropShadow1_" filterUnits="userSpaceOnUse">
+		<feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+		<feOffset dx="2.51969" dy="2.51969" in="blur" result="offsetBlurredAlpha"/>
+		<feMerge>
+			<feMergeNode in="offsetBlurredAlpha"/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+	</filter>
+	<path fill="none" stroke-width="20" stroke-linejoin="round" stroke="#FFFFFF" stroke-opacity="1" filter="url(#Filter_DropShadow1_)" d="M 153.125,103.382L 153.125,172.799L 11.8632,172.799L 11.8632,31.5371L 82.1252,31.5371"/>
+	<filter id="Filter_DropShadow2_" filterUnits="userSpaceOnUse">
+		<feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+		<feOffset dx="2.51969" dy="2.51969" in="blur" result="offsetBlurredAlpha"/>
+		<feMerge>
+			<feMergeNode in="offsetBlurredAlpha"/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+	</filter>
+	<line fill="none" stroke-width="20" stroke-linejoin="round" stroke="#FFFFFF" stroke-opacity="1" filter="url(#Filter_DropShadow2_)" x1="124.75" y1="71.1539" x2="183.293" y2="12.6108"/>
+	<filter id="Filter_DropShadow3_" filterUnits="userSpaceOnUse">
+		<feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+		<feOffset dx="2.51969" dy="2.51969" in="blur" result="offsetBlurredAlpha"/>
+		<feMerge>
+			<feMergeNode in="offsetBlurredAlpha"/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+	</filter>
+	<path fill="none" stroke-width="20" stroke-linejoin="round" stroke="#FFFFFF" stroke-opacity="1" filter="url(#Filter_DropShadow3_)" d="M 112.125,11.5371L 183.125,11.5371L 183.125,83.3824"/>
+</svg>
