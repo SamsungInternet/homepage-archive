@@ -18,3 +18,14 @@ iframe {
 main img {
   max-width: 100%;
 }
+
+.doc-subsection{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.doc-subsection li{
+  list-style-image: none;
+  margin: 2em;
+}
