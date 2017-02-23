@@ -2,7 +2,7 @@
 <meta name="theme-color" content="#151213">
 <link rel="icon" href="/images/sdevhubicon.png">
 <link rel="manifest" href="/manifest.json">
-<script src="scripts/hamburger-helper.js"></script>
+<script src="/scripts/hamburger-helper.js"></script>
 <meta charset="UTF-8">
 <title>{{site.name}}{% if page.title %} - {{page.title}}{% endif %}</title>
 <link href="/style/global.css" rel="stylesheet" type="text/css">
@@ -16,7 +16,7 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@samsunginternet" />
 <meta name="twitter:title" content="{{ page.title }}" />
-<meta name="twitter:url" content="{{ page.url }}" />{% if page.image %}
+<meta name="twitter:url" content="https://samsunginter.net{{ page.url }}" />{% if page.image %}
 <meta name="twitter:image" content="{{ page.image }}">{% endif %}
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{% if page.long_desc %}{{ page.long_desc }}{% else %}{{ page.short_desc }}{% endif %}{% endif %}" />
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{% if page.long_desc %}{{ page.long_desc }}{% else %}{{ page.short_desc }}{% endif %}{% endif %}">
