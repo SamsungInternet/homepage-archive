@@ -20,13 +20,15 @@ main img {
 }
 
 .doc-subsection{
+  margin: 2em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: stretch;
 }
 
 .doc-subsection img{
-  margin: 2em;
+  padding: .5em;
   max-width: 10em;
 }
 
