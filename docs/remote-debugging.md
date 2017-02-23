@@ -1,7 +1,7 @@
 ---
 title: Remote debugging
 layout: page
-image: http://localhost:4000/images/docs/dev-tools.png
+image: /images/docs/dev-tools.png
 ---
 This is a short guide for debugging a web page in Samsung Internet on your mobile device, via a
 desktop computer.

@@ -1,6 +1,7 @@
 ---
 title: Custom tabs (Android)
 layout: page
+image: /images/header-images/drink-can-tab.jpg
 ---
 A custom tab provides an optimised way to launch web content from a native Android app.
 Compared to implementing a Web View, or switching context to the browser app, it's quicker

@@ -2,6 +2,7 @@
 title: 360° videos
 layout: page
 type: doc
+image: /images/docs/360-video-android2.png
 ---
 Enable videos to be displayed immersively in 360 degrees, by setting `dimension`
 on the `type` attribute.
@@ -16,6 +17,14 @@ Possible values:
 * `dimension=180`: 180˚ Video
 * `dimension=180-lr`: Side-by-side 3D 180˚ Video
 * `dimension=180-tb`: Top-to-bottom 3D 180˚ Video
+
+In Samsung Internet for Android, 360° videos can be viewed by tapping on the full-screen option 
+and rotating your mobile device to view different parts of the scene:
+
+![360° video option displayed in Samsung Internet for Android](/images/docs/360-video-android1.png)
+
+![360° video viewed in Samsung Internet for Android](/images/docs/360-video-android2.png)
+
 
 ## Example
 
@@ -32,3 +41,7 @@ Possible values:
 ## Browser support
 
 360 videos were introduced in Samsung Internet version 4.2.
+
+## Further resources
+
+* [Samsung Internet for Gear VR overview](http://developer.samsung.com/internet#gearvr-overview)
