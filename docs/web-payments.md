@@ -1,7 +1,8 @@
 ---
 title: Web Payments
 layout: page
-image: https://samsunginter.net/images/header-images/payment-card.jpg
+image: /images/header-images/payment-card.jpg
+twitter_image: https://samsunginter.net/images/header-images/payment-card.jpg
 description: Take payments on the web with the requestPayment API
 ---
 Samsung Internet supports the [Payment Request API](https://www.w3.org/TR/payment-request/), providing

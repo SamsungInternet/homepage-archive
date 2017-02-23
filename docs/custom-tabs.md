@@ -1,7 +1,8 @@
 ---
 title: Custom tabs (Android)
 layout: page
-image: https://samsunginter.net/images/header-images/drink-can-tab.jpg
+image: /images/header-images/drink-can-tabs.jpg
+twitter_image: https://samsunginter.net/images/docs/custom-tab.png
 description: Integrating Samsung Internet into your Android Apps
 ---
 A custom tab provides an optimised way to launch web content from a native Android app.
