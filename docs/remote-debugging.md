@@ -2,6 +2,7 @@
 title: Remote debugging
 layout: page
 image: /images/docs/dev-tools.png
+description: Debugging Samsung Internet with Chrome DevTools
 ---
 This is a short guide for debugging a web page in Samsung Internet on your mobile device, via a
 desktop computer.

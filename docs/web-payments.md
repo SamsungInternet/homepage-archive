@@ -2,17 +2,18 @@
 title: Web Payments
 layout: page
 image: /images/header-images/payment-card.jpg
+description: Take payments on the web with the requestPayment API
 ---
-Samsung Internet supports the [Payment Request API](https://www.w3.org/TR/payment-request/), providing 
+Samsung Internet supports the [Payment Request API](https://www.w3.org/TR/payment-request/), providing
 a consistent, easy-to-use check-out experience.
 
-Please note that the Payment Request API simply provides the user interface. 
-You will still need a suitable [payment gateway](https://en.wikipedia.org/wiki/Payment_gateway) 
+Please note that the Payment Request API simply provides the user interface.
+You will still need a suitable [payment gateway](https://en.wikipedia.org/wiki/Payment_gateway)
 to provide secure payment processing.
 
 ## Sample code
 
-There are [example projects here on Github](https://github.com/SamsungInternet/examples). 
+There are [example projects here on Github](https://github.com/SamsungInternet/examples).
 
 Here is a simple extracted sample:
 
@@ -29,7 +30,7 @@ if (window.PaymentRequest) {
     }];
 
   var details = {total: {label: 'Something that costs money', amount: {currency: 'GBP', value: '9.99'}}};
-  
+
   // Show a Payment Request UI and handle the result
   new PaymentRequest(methodData, details)
     .show()
