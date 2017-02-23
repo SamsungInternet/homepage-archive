@@ -60,7 +60,11 @@ a:visited {
 
 	.showcase {
 		z-index: 60;
-		padding: 2em;
+		padding: 2em 2em 2em 4em;
+
+		a:link, a:visited, a:hover, a:active{
+			color: #FFFFFF;
+		}
 	}
 
 	.showcase-text {
