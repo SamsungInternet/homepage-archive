@@ -25,13 +25,19 @@ main img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  &:after{
+    content: "";
+    flex: auto;
+    flex-grow: 1;
+  }
 }
 
 .doc-subsection .icon-title {
-  flex-grow: 1;
-  min-width: 115px;
+  min-width: 0;
+  flex-basis: 115px;
 }
 
 .doc-subsection .icon-title a {
