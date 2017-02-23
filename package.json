@@ -19,5 +19,8 @@
   "homepage": "https://github.com/samsunginternet/samsunginternet.github.io#readme",
   "dependencies": {
     "handlebars": "^4.0.6"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.7.5"
   }
 }
