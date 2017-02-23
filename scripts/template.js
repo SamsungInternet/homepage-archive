@@ -44,6 +44,8 @@ var currentScript = document.currentScript || (function () {
 
 document.addEventListener('DOMContentLoaded', function () {
 
+	console.log('hello?');
+
 	// Load the template and the contents
 	var self = this;
 	console.log(this.src);

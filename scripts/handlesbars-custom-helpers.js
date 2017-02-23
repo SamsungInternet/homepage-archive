@@ -31,3 +31,7 @@ Handlebars.registerHelper('grabimage', function(options) {
 	div.innerHTML = '';
 	return result;
 });
+
+Handlebars.registerHelper('strip-medium-suffix', function(val, options) {
+	return val.replace('Continue reading on Samsung Internet Developers »', '');
+});

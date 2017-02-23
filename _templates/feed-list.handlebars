@@ -2,6 +2,6 @@
 <div class="feed-item">
 	{{#grabimage}}{{{description}}}{{/grabimage}}
 	<h2><a href="{{link}}">{{title}}</a></h2>
-	{{#excerpt 80}}{{{description}}}{{/excerpt}}
+	{{#excerpt 80}}{{{strip-medium-suffix description}}}{{/excerpt}}
 </div>
 {{/items}}
