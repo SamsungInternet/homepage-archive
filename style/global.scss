@@ -4,10 +4,20 @@
 
 html {
 	background-color: #151213;
-	font-family: 'Samsung One', Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1em;
 	color: #151213;
 	margin: 0px;
 	padding: 0px;
+}
+
+.wf-samsungone-n4-active body,
+.wf-samsungone-n7-active body {
+	font-family: 'Samsung One', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, p, span {
+	line-height: 1.3em;
 }
 
 body {
