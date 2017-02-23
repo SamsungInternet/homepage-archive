@@ -3,8 +3,6 @@ title: 360° videos
 layout: page
 type: doc
 ---
-# 360° videos
-
 Enable videos to be displayed immersively in 360 degrees, by setting `dimension`
 on the `type` attribute.
 
