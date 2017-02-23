@@ -2,6 +2,7 @@
 title: Documentation
 layout: page
 image: /images/docs/blueprints.jpg
+description: Documentation for the Samsung Internet Web Browser and the Samsung Internet for GearVR web browser.
 ---
 * [360° videos](video-360.html)
 * [CloseBy](closeby.html)
