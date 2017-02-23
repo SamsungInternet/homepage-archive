@@ -16,6 +16,10 @@ html {
 	font-family: 'Samsung One', Helvetica, Arial, sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 h1, h2, h3, p, span {
 	line-height: 1.3em;
 }
@@ -46,7 +50,7 @@ a:link,
 a:hover,
 a:active,
 a:visited {
-	color: #987FFF;
+	color: #4c3f7f;
 }
 
 .main-container {
@@ -133,7 +137,7 @@ a:visited {
 	}
 
 	a:hover {
-		color: #987FFF;
+		color: #4c3f7f;
 	}
 }
 

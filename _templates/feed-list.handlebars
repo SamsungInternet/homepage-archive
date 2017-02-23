@@ -1,7 +1,9 @@
 {{#items}}
 <div class="feed-item">
-	{{#grabimage "https://img.gs/bbdkhfbzkk/160x160,2x,crop/"}}{{{description}}}{{/grabimage}}
-	<h2><a href="{{link}}">{{title}}</a></h2>
+	<a href="{{link}}">
+		{{#grabimage "https://img.gs/bbdkhfbzkk/160x160,2x,crop/"}}{{{description}}}{{/grabimage}}
+		<h2>{{title}}</h2>
+	</a>
 	<p>{{#excerpt 30}}{{{strip-medium-suffix description}}}{{/excerpt}}</p>
 </div>
 {{/items}}

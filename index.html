@@ -35,9 +35,9 @@ image: https://samsunginter.net/images/sdevhublogodark.png
 {% else %}
 		<div class="feed-item">
 			{% if post.link %}
-			<h2><a href="{{ post.link }}" target="_blank" rel="noopener">{% if post.image %}<img src="{{ post.image }}" class="feed-item_image">{% endif %}{{ post.title }}</a></h2>
+			<a href="{{ post.link }}" target="_blank" rel="noopener">{% if post.image %}<img src="{{ post.image }}" class="feed-item_image">{% endif %}<h2>{{ post.title }}</h2></a>
 			{% else %}
-			<h2><a href="{{ post.url }}">{% if post.image %}<img src="{{ post.image }}" class="feed-item_image">{% endif %}{{ post.title }}</a></h2>
+			<a href="{{ post.url }}">{% if post.image %}<img src="{{ post.image }}" class="feed-item_image">{% endif %}<h2>{{ post.title }}</h2></a>
 			{% endif %}
 			<time>{{ post.date | date_to_string }}</time> {% if post.external %}<span title="External Link" style="font-size: 80%; color: #aaa;">{{ post.external }}</span>{% endif %}
 			<article class="feed-item_short-desc"><p>{{ post.long_desc }}</p></article>
@@ -49,13 +49,11 @@ image: https://samsunginter.net/images/sdevhublogodark.png
 	<h1><img src="images/calendarLogo.svg" class="title-icon" alt="Events"> Events</h1>
 	<div class="norm-subSection_feed">
 		<div class="feed-item">
-			<img src="images/events/mwp-2017.jpg" class="feed-item_image">
-			<a href="https://ti.to/samsunginternet/mwp17"><h2>Mobile World Progress</h2></a>
+			<a href="https://ti.to/samsunginternet/mwp17"><img src="images/events/mwp-2017.jpg" class="feed-item_image"><h2>Mobile World Progress</h2></a>
 			<p>Mobile Web Progress gathers developers to preview what's coming to web technology. Join us March 1st, 2017. Doors open at 16:30h. (Event 17:00h - 19:45h). Ens veiem a Barcelona!</p>
 		</div>
 		<div class="feed-item">
-			<img src="images/events/ieeevr.JPG" class="feed-item_image">
-			<a href="https://ieeevr.org"><h2>IEEE VR 2017</h2></a>
+			<a href="https://ieeevr.org"><img src="images/events/ieeevr.JPG" class="feed-item_image"><h2>IEEE VR 2017</h2></a>
 			<p>Virtual Reality can be implemented in a web browser. It allows the creation of immersive content on top of an open technology stack, without the need for application stores, developer accounts and other closed environments. </p>
 		</div>
 	</div>

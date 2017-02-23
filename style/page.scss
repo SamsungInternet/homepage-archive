@@ -22,7 +22,6 @@ main img {
 }
 
 .doc-subsection {
-  margin: 2em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -31,7 +30,8 @@ main img {
 }
 
 .doc-subsection .icon-title {
-  min-width: 150px;
+  flex-grow: 1;
+  min-width: 115px;
 }
 
 .doc-subsection .icon-title a {
@@ -40,16 +40,30 @@ main img {
 
 .doc-subsection img {
   padding: .5em;
-  width: 100px;
+  width: 60px;
 }
 
 .doc-subsection p {
   margin-top: 2px;
   text-align: center;
+  font-size: 0.9em;
+  min-width: 0;
 }
 
 .icon-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media (min-width:700px) {
+  .doc-subsection .icon-title {
+    min-width: 150px;
+  }
+  .doc-subsection img {
+    width: 100px;
+  }
+  .doc-subsection p {
+    font-size: 1em;
+  }
 }
