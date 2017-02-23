@@ -23,6 +23,8 @@ footer{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	padding: 0 1em 1em 1em;
+	color:white;
 }
 
 #devhublogo {
@@ -133,11 +135,6 @@ a:visited {
 
 .burger-menu_open {
 	display: flex;
-}
-
-footer {
-	color:white;
-	padding-left: 1em;
 }
 
 #burger-menu {
