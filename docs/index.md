@@ -5,12 +5,11 @@ image: /images/header-images/blueprints.jpg
 description: Documentation for the Samsung Internet Web Browser and the Samsung Internet for GearVR web browser.
 ---
 <div class="doc-subsection">
-    <ul>
-        <li><a href="video-360.html">360° videos</a></li>
-        <li><a href="closeby.html">CloseBy</a></li>
-        <li><a href="custom-tabs.html">Custom tabs (Android)</a></li>
-        <li><a href="remote-debugging.html">Remote debugging</a></li>
-        <li><a href="skybox.html">Skybox API (Gear VR)</a></li>
-        <li><a href="web-payments.html">Web Payments</a></li>
-    </ul>
+    <a href="video-360.html"><img src="images/ico-vid-360.svg" alt="360 Videos"></a>
+    <a href="closeby.html"><img src="images/ico-closeby.svg" alt="CloseBy"></a>
+    <a href="custom-tabs.html"><img src="images/ico-custom-tab.svg" alt="Custom Tabs"></a>
+    <a href="remote-debugging.html"><img src="images/ico-remote-debug.svg" alt="Remote Debugging"></a>
+    <a href="skybox.html"><img src="images/ico-skybox.svg" alt="Skybox API (Gear VR)"></a>
+    <a href="web-payments.html"><img src="images/ico-payment.svg" alt="WebPayments"></a>
+    <img src="images/si54.svg" alt="Samsung Internet 5.4">
 </div>
