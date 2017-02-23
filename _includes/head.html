@@ -1,4 +1,3 @@
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#151213">
 <link rel="icon" href="/images/sdevhubicon.png">
@@ -9,3 +8,15 @@
 <link href="/style/global.css" rel="stylesheet" type="text/css">
 <link href="/fonts/SamsungOne/fonts.css" rel="stylesheet" type="text/css">
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+
+<meta http-equiv="cleartype" content="on" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@samsunginternet" />
+<meta name="twitter:title" content="{{ page.title }}" />
+<meta name="twitter:url" content="{{ page.url }}" />{% if page.image %}
+<meta name="twitter:image" content="{{ page.image }}">{% endif %}
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{% if page.long_desc %}{{ page.long_desc }}{% else %}{{ page.short_desc }}{% endif %}{% endif %}" />
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{% if page.long_desc %}{{ page.long_desc }}{% else %}{{ page.short_desc }}{% endif %}{% endif %}">
