@@ -1,7 +1,7 @@
 ---
 title: Documentation
 layout: page
-image: /images/docs/blueprints.jpg
+image: /images/header-images/blueprints.jpg
 ---
 * [360° videos](video-360.html)
 * [CloseBy](closeby.html)
