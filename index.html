@@ -14,7 +14,7 @@ layout: index
 	<div class="showcase">
 		<span class="showcase-text">in the spotlight</span>
 		{% if post.link %}
-		<h2><a class="article-link w-bg showcase-shadow" href="{{ post.link }}" target="_blank" rel="noopener">{{ post.title }} <img src="images/linksLogo.svg" alt="go to article" style="filter:invert(100%); width:.9em;"></a></h2>
+		<h2><a class="article-link w-bg showcase-shadow" href="{{ post.link }}" target="_blank" rel="noopener">{{ post.title }} <img src="images/linksLogo.svg" alt="go to article" style="filter:invert(100%);-webkit-filter:invert(100%); width:.9em;"></a></h2>
 		{% else %}
 		<h2><a class="article-link" href="{{ post.url }}">{{ post.title }}</a></h2>
 		{% endif %}
