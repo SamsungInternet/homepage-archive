@@ -27,10 +27,11 @@ main img {
 
 .doc-subsection img{
   margin: 2em;
-  max-width: 8em;
+  max-width: 10em;
 }
 
 .icon-title{
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
