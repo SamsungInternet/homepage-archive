@@ -1,7 +1,8 @@
 ---
 title: Custom tabs (Android)
 layout: page
-image: /images/header-images/drink-can-tab.jpg
+image: https://samsunginter.net/images/header-images/drink-can-tab.jpg
+description: Integrating Samsung Internet into your Android Apps
 ---
 A custom tab provides an optimised way to launch web content from a native Android app.
 Compared to implementing a Web View, or switching context to the browser app, it's quicker
@@ -12,13 +13,13 @@ and provides a more seamless experience.
 ## Sample code
 
 It is possible to specify a Samsung Internet custom tab by setting the package name
-`com.sec.android.app.sbrowser` on your `Intent`. However, please note that harcoding a 
+`com.sec.android.app.sbrowser` on your `Intent`. However, please note that harcoding a
 specific browser is not advised.
 
 The recommended approach is to check which apps the user has which can fulfil the Intent
- and hopefully find one that’s been chosen as the default. 
+ and hopefully find one that’s been chosen as the default.
 
-The [code sample here](https://github.com/SamsungInternet/examples/tree/master/custom-tab-demo) 
+The [code sample here](https://github.com/SamsungInternet/examples/tree/master/custom-tab-demo)
 demonstrates this approach. Here is an extract:
 
 ```java
