@@ -58,3 +58,5 @@ Custom tab support was introduced in Samsung Internet v4.0.
 
 * ["Custom tabs for Samsung Internet"](https://medium.com/samsung-internet-dev/custom-tabs-for-samsung-internet-8563e4754b22)
 * [Web development guide](http://developer.samsung.com/internet/android/web-guide)
+
+###### Header image credit: [ProjectManhattan](https://commons.wikimedia.org/wiki/File:Can_ring_tabs.jpg) (CC 3.0)
