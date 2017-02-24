@@ -37,19 +37,20 @@ main img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: flex-start;
 
+  /*
   &:after{
     content: "";
     flex: auto;
     flex-grow: 1;
   }
+  */
 }
 
 .doc-subsection .icon-title {
-  min-width: 0;
-  flex-basis: 115px;
+  flex-basis: 125px;
 }
 
 .doc-subsection .icon-title a {
