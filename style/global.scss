@@ -217,6 +217,9 @@ a:visited {
 		flex-direction: column;
 		border-radius: .6em .6em .6em .6em;
 	}
+	header .showcase {
+		padding: 1em 1em 2em 3em;
+	}
 }
 
 @media (min-width:700px) {
