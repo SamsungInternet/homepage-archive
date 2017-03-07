@@ -82,7 +82,7 @@ a:visited {
 
 	.showcase {
 		z-index: 60;
-		padding: 1em 2em 2em 4em;
+		padding: 0.8em 2em 2em 2em;
 
 		a:link, a:visited, a:hover, a:active{
 			color: #FFFFFF;
@@ -205,7 +205,7 @@ a:visited {
 	display: none;
 }
 
-@media (max-width:350px) {
+@media (max-width:400px) {
 	.norm {
 		margin: 350px .1em 2em .1em;
 		position: relative;
@@ -217,8 +217,8 @@ a:visited {
 		flex-direction: column;
 		border-radius: .6em .6em .6em .6em;
 	}
-	header .showcase {
-		padding: 1em 1em 2em 3em;
+	.header .showcase {
+		padding: 0 2em 2em 2em;
 	}
 }
 
