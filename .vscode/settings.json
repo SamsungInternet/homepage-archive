@@ -1,0 +1,6 @@
+{
+  "files.exclude": {
+    "_site": "explorerExcludedFiles",
+    "node_modules": "explorerExcludedFiles"
+  }
+}
