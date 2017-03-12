@@ -23,7 +23,7 @@ description: Documentation for the Samsung Internet Web Browser and the Samsung 
 <div class="icon-title"><a href="web-payments.html"><img src="/images/ico-payment.svg" alt="Web Payments"></a>
 	<p><a href="web-payments.html">Web Payments</a></p>
 </div>
-<div class="icon-title"><a href="ambient-badging.html"><img src="/images/ico-ambient-badging.png" alt="Ambient Badging"></a>
+<div class="icon-title"><a href="ambient-badging.html"><img src="/images/ico-ambient-badging.svg" alt="Ambient Badging"></a>
 	<p><a href="ambient-badging.html">Ambient Badging</a></p>
 </div>
 <!--
