@@ -58,3 +58,4 @@ Payment Request API support was introduced in Samsung Internet v5.0.
 ## Further resources
 
 * ["How to take payments on the web with the Payment Request API"](https://medium.com/samsung-internet-dev/how-to-take-payments-on-the-web-with-the-payment-request-api-a523f6fc7c1f)
+* ["Payment Request API: an Integration Guide" (Chrome Developers)](https://developers.google.com/web/fundamentals/discovery-and-monetization/payment-request/)
