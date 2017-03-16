@@ -20,14 +20,10 @@ Here is a simple extracted sample:
 ```javascript
 if (window.PaymentRequest) {
 
-  // Configure the type of payments you wish to support, for example...
-  var methodData = [{
-      supportedMethods: ['basic-card'],
-      data: {
-        supportedNetworks: ['visa', 'mastercard', 'amex'],
-        supportedTypes: ['credit', 'debit']
-      }
-    }];
+  // Note: The newer 'basic-card' format is supported in Samsung Internet Beta v5.4.
+  // This previous format is still supported and will also work in v5.0.
+  // Note: These are example payment networks. Others are available. 
+  var methodData = [{supportedMethods: ['visa', 'mastercard', 'amex']}];
 
   var details = {total: {label: 'Something that costs money', amount: {currency: 'GBP', value: '9.99'}}};
 
