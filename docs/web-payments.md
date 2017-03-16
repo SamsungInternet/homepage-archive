@@ -49,8 +49,11 @@ if (window.PaymentRequest) {
 
 ## Browser support
 
-Payment Request API support was introduced in Samsung Internet v5.0.
+Payment Request API support was introduced in Samsung Internet v5.0. 
+
+The 'basic-card' format was introduced in Samsung Internet v5.4 beta. [See here](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/IYRjdUKxCoM/8B-jp4g9AgAJ) for further details.
 
 ## Further resources
 
 * ["How to take payments on the web with the Payment Request API"](https://medium.com/samsung-internet-dev/how-to-take-payments-on-the-web-with-the-payment-request-api-a523f6fc7c1f)
+* ["Payment Request API: an Integration Guide" (Chrome Developers)](https://developers.google.com/web/fundamentals/discovery-and-monetization/payment-request/)
