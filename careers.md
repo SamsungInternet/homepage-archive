@@ -45,7 +45,7 @@ Candidates with web development experience are highly preferred.
 
 Samsung Electronics Co., Ltd. is the global leader in consumer electronics and the core components that go into them. Through relentless innovation and discovery, we are transforming the worlds of televisions, smartphones, personal computers, printers, cameras, home appliances, medical devices, semiconductors and LED solutions. We employ 206,000 people across 72 countries with annual sales exceeding US $143.1 billion. Our goal is opening new possibilities for people everywhere. 
 
-Samsung Europe
+**Samsung Europe**
 
 Samsung Europe comprises 17 divisions (subsidiaries) across Europe that represent circa $32 bn. in sales. It has recently become the leading Consumer Electronics brand in the region in terms of recognition and most preferred by consumers. However, the ambition on the business is to become THE leading Electronics brand and to double its turnover by 2020.
 
