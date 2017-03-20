@@ -50,3 +50,7 @@ Samsung Electronics Co., Ltd. is the global leader in consumer electronics and t
 Samsung Europe comprises 17 divisions (subsidiaries) across Europe that represent circa $32 bn. in sales. It has recently become the leading Consumer Electronics brand in the region in terms of recognition and most preferred by consumers. However, the ambition on the business is to become THE leading Electronics brand and to double its turnover by 2020.
 
 In the pursuit of global excellence, we are continuously looking for dynamic new leaders for the digital age of the 21st Century. Imagine a career working for a company who is passionate about its people. It is our people that make Samsung the leader in diverse marketplaces and the market innovator that drives technology. At Samsung Electronics, our products, our people and our approach to business are held to only the highest standards so that we can effectively contribute to a better world.
+
+## How to Apply
+
+Apply using the Samsung Careers page [https://careers.eu.samsung.com/careers/svc/app/viewSearchJob?reqstnNo=288888](https://careers.eu.samsung.com/careers/svc/app/viewSearchJob?reqstnNo=288888)
