@@ -9,7 +9,7 @@ description: How to use Immersive 360 Video for Virtual Reality on Samsung Inter
 Enable videos to be displayed immersively in 360 degrees, by setting `dimension`
 on the `type` attribute.
 
-Possible values:
+Possible values for type:
 
 * `dimension=3d-lr`: Side-by-Side 3D Video
 * `dimension=3d-tb`: Top-to-bottom 3D Video
@@ -31,7 +31,7 @@ and rotating your mobile device to view different parts of the scene:
 ## Example
 
 ```html
-<video src=”/360.webm" type=”video/webm; dimension=360;>
+<video src=”/360.webm" type=”video/webm; dimension=360;">
 ```
 
 ## Demo
