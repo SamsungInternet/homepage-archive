@@ -1,7 +1,0 @@
-{
-  "files.exclude": {
-    "_site": "explorerExcludedFiles",
-    "node_modules": "explorerExcludedFiles"
-},
-"vsicons.presets.angular": false
-}
