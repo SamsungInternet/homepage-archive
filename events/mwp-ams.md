@@ -12,5 +12,8 @@ description: Using Physical web Beacons with the Samsung Internet Web Browser
     <div><h2>Get your ticket</h2></div>
     <div>
         <h2>Sponsors</h2>
+        <img src="/images/assets/samsunginternetlogo.png">
+        <img src="/images/assets/mozlogo.jpg">
+        <img src="/images/assets/edgelogo.png">
     </div>
 </div>
