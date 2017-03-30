@@ -1,0 +1,27 @@
+<html>
+<head>
+	{% include head.html %}
+	<link href="/style/page.css" rel="stylesheet" type="text/css">
+	<link href="/style/syntax-highlighter.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<main class="main-container">
+		<section class="header">
+			{% include event-banner.html %}
+			<div class="showcase">
+				<h2>{{ page.title }}</h2>
+				<article class="feed-item_short-desc"><p>{{ page.short_desc }}</p></article>
+			</div>
+		</section>
+
+		{% include hamburger-menu.html %}
+
+		{% if page.image %}<div class="main-header_bg" style="background-image: url({{page.image}});"></div>{% endif %}
+
+		<section class="norm">
+			{{content}}
+		</section>
+	</main>
+	{% include footer.html %}
+</body>
+</html>
