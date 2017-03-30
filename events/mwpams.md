@@ -1,8 +1,8 @@
 ---
-title: Mobile World Progresws Amsterdam 2017
+title: Mobile World Progress Amsterdam 2017
 layout: event
-image: /images/header-images/lighthouse-beacon.jpg
-logo: /lol.jpg
+image: /images/header-images/amsterdam.jpg
+logo: /images/events/mwp-ams.jpg
 description: Using Physical web Beacons with the Samsung Internet Web Browser
 ---
 CloseBy is Samsung Internet's [Physical Web](https://google.github.io/physical-web/) beacon service. It is accessed via the
