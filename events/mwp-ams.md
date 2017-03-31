@@ -27,7 +27,7 @@ description: Using Physical web Beacons with the Samsung Internet Web Browser
         <h2>Code of Conduct</h2>
         <p>Refer to our Code of Conduct found <a href="http://confcodeofconduct.com/">here</a></p>
     </div>
-    <div class="event-well-item">
+    <div>
         <h2>Sponsors</h2>
         <a href="https://samsunginter.net/"><img src="/images/assets/samsunginternetlogo.png" class="sponsor-logo"></a>
         <a href="https://mozilla.org"><img src="/images/assets/mozlogo.jpg" class="sponsor-logo"></a>
