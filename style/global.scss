@@ -180,8 +180,8 @@ a:visited {
 }
 
 .socialicon {
-	margin: 1em;
-	width: 2em;
+	margin: .5em;
+	width: 1.5em;
 	filter: invert(100%);
 	-webkit-filter: invert(100%);
 }
@@ -190,11 +190,13 @@ a:visited {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 #nav-links {
 	display: flex;
 	flex-direction: column;
+	line-height: 1.1rem;
 }
 
 .burger-menu_open {
