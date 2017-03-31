@@ -25,7 +25,7 @@ description: Mobile World Progress Amsterdam 2017
     </div>
     <div class="event-well-item">
         <h2>Code of Conduct</h2>
-        <p>Refer to our Code of Conduct found <a href="http://confcodeofconduct.com/">here</a></p>
+        <p>We are using the crowd-source conference code of conduct. If you have any questions about this please contact the organizers. You can check it out <a href="http://confcodeofconduct.com/">here</a>.</p>
     </div>
     <div>
         <h2>Sponsors</h2>
