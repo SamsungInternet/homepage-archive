@@ -21,7 +21,7 @@ description: Using Physical web Beacons with the Samsung Internet Web Browser
     </div>
     <div class="event-well-item">
         <h2>Get your ticket</h2>
-        <p>Ticket fee is 5€, which will be donated to a charity for teqching children coding skills. Get your tickets <a href="https://webconferences.paydro.com/pwa-meet-up">here</a>!</p>
+        <p>Ticket fee is 5€, which will be donated to a charity for teaching children coding skills. Get your tickets <a href="https://webconferences.paydro.com/pwa-meet-up">here</a>!</p>
     </div>
     <div class="event-well-item">
         <h2>Code of Conduct</h2>
