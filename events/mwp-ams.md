@@ -3,7 +3,7 @@ title:
 layout: event
 image: /images/header-images/amsterdam.jpg
 logo: /images/events/mwp-ams.svg
-description: Using Physical web Beacons with the Samsung Internet Web Browser
+description: Mobile World Progress Amsterdam 2017 
 ---
 <div class="event-well">
     <h2>Mobile World Progress Amsterdam 2017</h2>
