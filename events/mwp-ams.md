@@ -11,7 +11,7 @@ description: Using Physical web Beacons with the Samsung Internet Web Browser
     <div class="event-well-item"><h2>Speakers</h2>
     <h3>Daniel Appelquist</h3>
     <h3>Ioana Chiorean</h3>
-    </div
+    </div>
     <div class="event-well-item"><h2>Venue</h2>
         <h3>Desmet Studio’s Amsterdam bv</h3>
         http://www.desmet.tv/ <br>
