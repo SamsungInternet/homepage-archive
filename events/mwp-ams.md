@@ -15,8 +15,9 @@ description: Mobile World Progress Amsterdam 2017
         <p>The rise of mobile apps has had an enormous impact on how people create, consume and share information, how they play games, how they organize their lives. But in the rush to build bigger and better mobile apps, we’ve forgotten one lesson we should have learned from the rise of the Internet in the 1990s: open is better. Meanwhile, the web platform has been undergoing a quiet revolution. New technologies such as web payment, progressive enhancement, off-line use, save-to-homescreen and push notifications are creating a revolution in web applications bringing the best aspects of mobile apps to the web while still keeping the web webby.</p>
     </div>
     <div class="event-well-item"><h3><a href="https://twitter.com/ioana_cis">Ioana Chiorean</a></h3>
-        <h3>Title title</h3>
+        
         <img src="https://pbs.twimg.com/profile_images/798036990461624321/DckqjgK9.jpg" class="speaker-pic">
+        <h3>Title title</h3>
         <p>Lorem ipsum dolor sit amet, ea usu mutat impetus. Eum at mucius indoctum, porro inimicus sea ne, vis at facilis mentitum. Mutat facer vivendo ad quo. Paulo iudico adipiscing no has, id duo vocent necessitatibus. Te tation quodsi nam, vim id tation populo disputando. Lorem ipsum dolor sit amet, ea usu mutat impetus. Eum at mucius indoctum, porro inimicus sea ne, vis at facilis mentitum. Mutat facer vivendo ad quo. Paulo iudico adipiscing no has, id duo vocent necessitatibus. Te tation quodsi nam, vim id tation populo disputando.</p>
     </div>
     <div class="event-well-item"><h2>Venue</h2>
