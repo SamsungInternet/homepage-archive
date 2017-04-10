@@ -10,6 +10,7 @@
     max-width: 30rem;
     flex-grow: 1;
     flex-basis: 30rem;
+    padding: 1.5rem;
 }
 
 .sponsor-logo{
@@ -18,6 +19,6 @@
 }
 
 .speaker-pic{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
 }
