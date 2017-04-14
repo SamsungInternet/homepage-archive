@@ -17,7 +17,7 @@ description: Mobile World Progress Amsterdam 2017
     <div class="event-well-item"><h3><a href="https://twitter.com/ioana_cis">Ioana Chiorean</a></h3>
         
         <img src="https://pbs.twimg.com/profile_images/798036990461624321/DckqjgK9.jpg" class="speaker-pic">
-        <h3>Tech Speaker at Mozilla</h3>
+        <h4>Building Off-Line Webapps</h4>
         <p>Ioana will be taking a deeper dive into building off-line apps with service worker and accompanying technologies.</p>
     </div>
     <div class="event-well-item"><h2>Venue</h2>
