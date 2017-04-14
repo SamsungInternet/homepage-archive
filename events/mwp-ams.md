@@ -17,8 +17,8 @@ description: Mobile World Progress Amsterdam 2017
     <div class="event-well-item"><h3><a href="https://twitter.com/ioana_cis">Ioana Chiorean</a></h3>
         
         <img src="https://pbs.twimg.com/profile_images/798036990461624321/DckqjgK9.jpg" class="speaker-pic">
-        <h3>Title title</h3>
-        <p>Lorem ipsum dolor sit amet, ea usu mutat impetus. Eum at mucius indoctum, porro inimicus sea ne, vis at facilis mentitum. Mutat facer vivendo ad quo. Paulo iudico adipiscing no has, id duo vocent necessitatibus. Te tation quodsi nam, vim id tation populo disputando. Lorem ipsum dolor sit amet, ea usu mutat impetus. Eum at mucius indoctum, porro inimicus sea ne, vis at facilis mentitum. Mutat facer vivendo ad quo. Paulo iudico adipiscing no has, id duo vocent necessitatibus. Te tation quodsi nam, vim id tation populo disputando.</p>
+        <h3>Tech Speaker at Mozilla</h3>
+        <p>Ioana will be taking a deeper dive into building off-line apps with service worker and accompanying technologies.</p>
     </div>
     <div class="event-well-item"><h2>Venue</h2>
         <h3>Desmet Studio’s Amsterdam bv</h3>
