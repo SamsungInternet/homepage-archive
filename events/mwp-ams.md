@@ -29,7 +29,8 @@ description: Mobile Web Progress Amsterdam 2017
     </div>
     <div class="event-well-item">
         <h2>Get your ticket</h2>
-        <p>Ticket fee is 5€, which will be donated to a charity for teaching children coding skills. Get your tickets <a href="https://webconferences.paydro.com/pwa-meet-up">here</a>!</p>
+        <p>Ticket fee is 5€, which will be donated to a charity for teaching children coding skills.</p>
+        <p class="call-to-action"><a href="https://webconferences.paydro.com/pwa-meet-up">Get your tickets here</a></p>
     </div>
     <div class="event-well-item">
         <h2>Code of Conduct</h2>
