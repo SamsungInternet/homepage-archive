@@ -23,7 +23,7 @@
     height: 80px;
 }
 
-.call-to-action {
+.event-well-item .call-to-action {
     margin-top: 2em;
 }
 
@@ -39,4 +39,8 @@
 .norm .call-to-action a:active,
 .norm .call-to-action a:visited {
     color: #fff;
+}
+
+.full-row {
+    flex-basis: 100%;
 }

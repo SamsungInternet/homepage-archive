@@ -8,6 +8,9 @@ description: Mobile Web Progress Amsterdam 2017
 <div class="event-well">
     <h2>Mobile Web Progress Amsterdam 2017</h2>
     <p>On 10th of May we’ll have a small evening meet-up in Amsterdam on the topic of progressive web apps. Don’t expect the basics; our two speakers aim to take you well beyond that with some advanced tips and tricks. The entrance fee will be 5 euros, and proceeds will be donated to a charity for teaching children how to program.</p>
+
+    <p class="call-to-action full-row"><a href="https://webconferences.paydro.com/pwa-meet-up">Get your tickets here</a></p>
+
     <div class="event-well-item">
         <h3><a href="https://twitter.com/torgo">Daniel Appelquist</a></h3>
         <img src="https://mobcon.com/wp-content/uploads/2017/01/Daniel-Appelquist.jpg" class="speaker-pic">
@@ -27,14 +30,19 @@ description: Mobile Web Progress Amsterdam 2017
         1018DD Amsterdam<br>
         <a href="https://goo.gl/maps/aGvU81pBaG62">See it on a map</a>.
     </div>
-    <div class="event-well-item">
-        <h2>Get your ticket</h2>
-        <p>Ticket fee is 5€, which will be donated to a charity for teaching children coding skills.</p>
-        <p class="call-to-action"><a href="https://webconferences.paydro.com/pwa-meet-up">Get your tickets here</a></p>
+    <div class="event-well-item"><h2>Schedule (provisional)</h2>
+        <p><strong>6pm:</strong> Doors open and drinks will be available.</p>
+        <p><strong>7.30pm to 9.15pm:</strong> The talks (with an interval in between).</p>
+        <p><strong>9.15pm to close:</strong> Networking/drinks.</p>
     </div>
     <div class="event-well-item">
         <h2>Code of Conduct</h2>
         <p>We are using the crowd-source conference code of conduct. If you have any questions about this please contact the organizers. You can check it out <a href="http://confcodeofconduct.com/">here</a>.</p>
+    </div>
+    <div class="event-well-item">
+        <h2>Get your ticket</h2>
+        <p>Ticket fee is 5€, which will be donated to a charity for teaching children coding skills.</p>
+        <p class="call-to-action"><a href="https://webconferences.paydro.com/pwa-meet-up">Get your tickets here</a></p>
     </div>
     <div>
         <h2>Sponsors</h2>
