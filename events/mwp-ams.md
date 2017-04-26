@@ -6,8 +6,8 @@ logo: /images/events/mwp-ams.svg
 description: Mobile Web Progress Amsterdam 2017 
 ---
 <div class="event-well">
-    <h2>Mobile Web Progress Amsterdam 2017</h2>
-    <p>On 10th of May we’ll have a small evening meet-up in Amsterdam on the topic of progressive web apps. Don’t expect the basics; our two speakers aim to take you well beyond that with some advanced tips and tricks. The entrance fee will be 5 euros, and proceeds will be donated to a charity for teaching children how to program.</p>
+    <h2>Mobile Web Progress Amsterdam - 10th May 2017</h2>
+    <p>On Wednesday 10th of May we’ll have a small evening meet-up in Amsterdam on the topic of progressive web apps. Don’t expect the basics; our two speakers aim to take you well beyond that with some advanced tips and tricks. The entrance fee will be 5 euros, and proceeds will be donated to a charity for teaching children how to program.</p>
 
     <p class="call-to-action full-row"><a href="https://webconferences.paydro.com/pwa-meet-up">Get your tickets here</a></p>
 
