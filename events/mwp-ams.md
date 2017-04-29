@@ -1,9 +1,9 @@
 ---
-title:  
+title: Mobile Web Progress Amsterdam 2017 
 layout: event
 image: /images/header-images/amsterdam.jpg
 logo: /images/events/mwp-ams.svg
-description: Mobile Web Progress Amsterdam 2017 
+description: An evening meetup on the topic of progressive web apps, Wednesday 10th May 2017 
 ---
 <div class="event-well">
     <h2>Mobile Web Progress Amsterdam - 10th May 2017</h2>
