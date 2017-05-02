@@ -21,7 +21,7 @@ description: An evening meetup on the topic of progressive web apps, Wednesday 1
         
         <img src="https://pbs.twimg.com/profile_images/798036990461624321/DckqjgK9.jpg" class="speaker-pic">
         <h4>Building Off-Line Webapps</h4>
-        <p>Ioana will be taking a deeper dive into building off-line apps with service worker and accompanying technologies.</p>
+        <p> As we spend so much of out time on the mobile phones and we do use it to look for different things - either a new scientific discovery or the next receipt to try on - our expectations from the (mobile) web grew exponentially. With, Progressive Web Apps, developers can deliver now amazing app-like experiences to users that works offline. In this trade off, how much use of caching and other storage techniques do we need, to substantially improve the user experience? We will talk about how Service Workers help us get this connectivity independent, some good and helpful examples and also lessons learned since we start using them.</p>
     </div>
     <div class="event-well-item"><h2>Venue</h2>
         <h3>Desmet Studio’s Amsterdam bv</h3>
