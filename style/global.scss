@@ -5,10 +5,11 @@
 html {
 	background-color: #151213;
 	font-family: Helvetica, Arial, sans-serif;
-	line-height: 1em;
+	line-height: 1.3em;
 	color: #151213;
 	margin: 0px;
 	padding: 0px;
+	font-size: 1.2rem;
 }
 
 .wf-samsungone-n4-active body,
@@ -75,7 +76,6 @@ a:visited {
 }
 
 .header {
-	position: absolute;
 	z-index: 100;
 	color: #FFFFFF;
 	width: 100%;
@@ -111,14 +111,14 @@ a:visited {
 	background-size: cover;
 	background-position: center center;
 	box-shadow: inset 1em 1em 5em 3em #231F20;
-	position: absolute;
-	height: 350px;
 	z-index: 0;
 	width: 100%;
+	position: absolute;
+	height: 350px;
 }
 
 .norm {
-	margin: 350px 1.5em 2em 1.5em;
+	margin: 1em 1.5em 2em 1.5em;
 	position: relative;
 	z-index: 50;
 	background-color: #FFFFFF;
@@ -209,7 +209,7 @@ a:visited {
 
 @media (max-width:400px) {
 	.norm {
-		margin: 350px .1em 2em .1em;
+		margin: 1em .1em 2em .1em;
 		position: relative;
 		z-index: 50;
 		background-color: #FFFFFF;
