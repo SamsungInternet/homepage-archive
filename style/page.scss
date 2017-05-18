@@ -71,6 +71,10 @@ main img {
   justify-content: center;
 }
 
+figcaption {
+  font-style: italic;
+}
+
 @media (min-width:700px) {
   .doc-subsection .icon-title {
     min-width: 150px;
