@@ -1,10 +1,6 @@
 ---
 ---
 
-.norm {
-  margin-top: 220px;
-}
-
 #socials {
 	top: 150px;
 }
@@ -84,5 +80,8 @@ figcaption {
   }
   .doc-subsection p {
     font-size: 1em;
+  }
+  .header h2 {
+    max-width: 50%;
   }
 }
