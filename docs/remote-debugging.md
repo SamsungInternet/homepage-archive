@@ -11,7 +11,7 @@ desktop computer.
 ## Prerequisites
 
 1. If you wish to connect via a USB cable (Wi-Fi is also possible, see below) and have not done so
-already, enable USB Debugging on your Samsung device:
+already, enable USB Debugging on your mobile device:
   * Go to `Settings > About device` and tap on the build number entry seven times, to unlock 'Developer Options'
   * In `Settings > Developer options`, switch on 'USB Debugging'
 
@@ -22,13 +22,13 @@ Alternatively, you can [install it separately](https://developer.android.com/stu
 
 ## Set up remote debugging via Chrome
 
-1. Connect your Samsung device to your desktop computer via a USB cable. If you are shown an
+1. Connect your mobile device to your desktop computer via a USB cable. If you are shown an
 *"Allow access to device data"* prompt, choose "Allow".
 
 1. Open up the Chrome browser on your desktop and visit `chrome://inspect`.
 
-1. Check that your Samsung device is listed. If it is not, you
-may need to open the Chrome app on your Samsung device.
+1. Check that your mobile device is listed. If it is not, you
+may need to open the Chrome app on your mobile device.
 
 1. Any pages you have open in Samsung Internet should be listed here for inspection.
 
@@ -38,7 +38,7 @@ may need to open the Chrome app on your Samsung device.
 
     ![Port forwarding](/images/docs/port-fowarding.png)
 
-1. Open Samsung Internet on your Samsung device and visit your local site via `127.0.0.1:` followed by
+1. Open Samsung Internet on your mobile device and visit your local site via `127.0.0.1:` followed by
 the port number. For example, `127.0.0.1:4000`.
 
 ## Inspect
