@@ -16,18 +16,19 @@ Samsung Internet is one of the top mobile web browsers worldwide, with hundreds 
 top contributors to the open source Chromium project, Samsung are helping to advance the web platform, improving
 the experience of using the web for people across the globe.
 
-**About the team**
+## About the team
+Samsung Internet is one of the top mobile web browsers worldwide, with hundreds of millions of users. As one of the 
+top contributors to the open source Chromium project, Samsung are helping to advance the web platform, improving
+the experience of using the web for people across the globe.
 
 The Developer Advocacy team launched last year to help support 3rd party developers who are building web applications on top of Samsung’s browser. With the team’s responsibilities growing, we are looking to bring on a team member who can help us to communicate with end users, as well as developers.
 
 The team is based at Samsung Research UK in Staines-upon-Thames. We collaborate closely with colleagues internationally, particularly in South Korea and the US.
 
-**What you could expect**
-
+## What you could expect
 The kind of opportunities this role would offer include:
 
-* Creating materials to inform end users and developers about our browser and its latest features, for example 
-web pages and videos.
+* Creating materials to inform end users and developers about our browser and its latest features, for example web pages and videos.
 * Working with press and media contacts, external bloggers and podcasters.
 * Developing cross-promotional initiatives with key partners.
 * Participating on social media and helping to grow our online communities.
