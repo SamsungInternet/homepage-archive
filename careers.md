@@ -56,4 +56,4 @@ In the pursuit of global excellence, we are continuously looking for dynamic new
 
 ## How to Apply
 
-Apply using the Samsung Careers page [https://careers.eu.samsung.com/careers/svc/app/viewSearchJob?reqstnNo=288888](https://careers.eu.samsung.com/careers/svc/app/viewSearchJob?reqstnNo=288888)
+Apply using the Samsung Careers page [by click here.](https://careers.eu.samsung.com/careers/svc/app/viewSearchJob?reqstnNo=288888)
