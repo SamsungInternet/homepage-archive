@@ -6,6 +6,7 @@ For generating our developer hub site at [https://samsunginter.net/](https://sam
 
 To recompile the Handlebars templates:
 
+(first time do `npm install`, then...)
 `npm run build`
 
 To run the site locally:
