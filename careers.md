@@ -17,11 +17,9 @@ top contributors to the open source Chromium project, Samsung are helping to adv
 the experience of using the web for people across the globe.
 
 ## About the team
-Samsung Internet is one of the top mobile web browsers worldwide, with hundreds of millions of users. As one of the 
-top contributors to the open source Chromium project, Samsung are helping to advance the web platform, improving
-the experience of using the web for people across the globe.
+The Developer Advocacy team launched last year to help support 3rd party developers who are building web applications on top of Samsung’s browser. We create demonstrations, present at conferences and generally help to develop and promote Web APIs. In particular, we are keen supporters of Progressive Web Apps and WebVR.
 
-The Developer Advocacy team launched last year to help support 3rd party developers who are building web applications on top of Samsung’s browser. With the team’s responsibilities growing, we are looking to bring on a team member who can help us to communicate with end users, as well as developers.
+With the team’s responsibilities growing, we are looking to bring on a team member who can help us to communicate with developers as well as end users.
 
 The team is based at Samsung Research UK in Staines-upon-Thames. We collaborate closely with colleagues internationally, particularly in South Korea and the US.
 
@@ -35,13 +33,12 @@ The kind of opportunities this role would offer include:
 * Arranging, attending and speaking at technology events, to help raise awareness.
 * Consolidating public feedback about our browser, in order to recommend new features and improvements.
 * Writing technical documentation, blog posts, and performing user research.
+* Contributing to the development of open web standards.
 
 ## Necessary Skills / Attributes
-This is a position for someone who loves the web and is keen to advocate it. As a bridge between engineering and the wider world, the role would suit someone with experience of consumer marketing in a technical product development 
-environment.
+This is a position for someone who loves the web and is keen to advocate it. As a bridge between engineering and the wider world, the role would suit someone with experience of communicating with developers and contributing to technical documentation. Alternatively, experience of consumer marketing in a technical product development environment would also be advantageous.
 
-Ideally candidates would also have experience of communicating with developers and contributing to technical documentation. We are looking for someone with a solid understanding of web technologies and how the web is advancing. 
-Candidates with web development experience are highly preferred.
+We are looking for someone with a solid understanding of web technologies and how the web is advancing. Candidates with web development experience are highly preferred.
 
 ## Company Information
 **Samsung Global**
