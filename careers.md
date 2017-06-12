@@ -11,7 +11,6 @@ Samsung R&D Institute United Kingdom , Staines-Upon-Thames United Kingdom
 
 [View on careers.eu.samsung.com](https://careers.eu.samsung.com/careers/svc/app/viewSearchJob?reqstnNo=288888)
 
-## General Description
 Samsung Internet is one of the top mobile web browsers worldwide, with hundreds of millions of users. As one of the 
 top contributors to the open source Chromium project, Samsung are helping to advance the web platform, improving
 the experience of using the web for people across the globe.
