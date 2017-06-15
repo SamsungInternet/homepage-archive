@@ -5,8 +5,6 @@ image: /images/header-images/drink-can-tabs.jpg
 twitter_image: https://samsunginter.net/images/docs/content-blocker-before-after.png
 description: How to enable content blocking in Samsung Internet
 ---
-# Content blockers
-
 Content blockers can help your browsing experience to be less cluttered with unwanted
 content such as annoying adverts. They can help your privacy by blocking invasive tracking, 
 save your data usage and even save your battery life.
