@@ -7,7 +7,7 @@ description: How to enable content blocking in Samsung Internet
 ---
 Content blockers can help your browsing experience to be less cluttered with unwanted
 content such as annoying adverts. They can help your privacy by blocking invasive tracking, 
-save your data usage and even save your battery life.
+save your data usage and even improve your battery life.
 
 <figure>
   <img src="/images/docs/content-blocker-before-after.png" alt="Content blocking before and after">
