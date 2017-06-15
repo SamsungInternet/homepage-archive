@@ -1,7 +1,7 @@
 ---
 title: Content blockers
 layout: page
-image: /images/header-images/drink-can-tabs.jpg
+image: /images/header-images/stop-sign.jpg
 twitter_image: https://samsunginter.net/images/docs/content-blocker-before-after.png
 description: How to enable content blocking in Samsung Internet
 ---
