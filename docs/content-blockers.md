@@ -41,4 +41,4 @@ you’ll be able to check the number of blocked requests for the current page.
 ![Viewing blocked requests](/images/docs/content-blocker-blocked.png)
 
 To view the current page without content blocking, tap the ‘View without content blocker’ 
-menu item. (You can also enable and disable content blockers as you wish in the settings).
+menu item. You can also toggle content blockers on and off as you wish in the settings.
