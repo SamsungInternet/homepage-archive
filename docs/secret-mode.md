@@ -11,14 +11,14 @@ Enabling secret mode is simple:
 Open up Samsung Internet.
 Tap on Tabs in the bottom right corner.
 
-![Samsung Interet viewing a PWA](/images/docs/secret-mode-1.png)
+![Samsung Interet viewing a PWA](/images/docs/secret-mode-1.jpg)
 
 
 ### Step 2
 
 Select TURN ON SECRET MODE in the bottom left corner.
 
-![Plus icon when tapped](/images/docs/secret-mode-2.png)
+![Plus icon when tapped](/images/docs/secret-mode-2.jpg)
 
 
 ### Step 3
