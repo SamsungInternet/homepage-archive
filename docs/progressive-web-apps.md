@@ -32,7 +32,7 @@ They have been supported in Samsung Internet for Android since v4.
  
 ## Push Notifications
  
-Service Workers are also used to deliver push notifications. Push notifications on the web are 
+Service Workers can also be used to deliver push notifications. Push notifications on the web are 
 achieved using two APIs: the [Notification API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API) 
 and the [Push API](https://developer.mozilla.org/en-US/docs/Web/API/Push_API). The Notification 
 API is used to display notifications. The Push API is used in a service worker to handle the 
@@ -56,6 +56,12 @@ In Samsung Internet for Android, the user can choose ‘Add shortcut on Home scr
 menu. If your manifest declares them appropriately, your chosen icon will appear on the home 
 screen along with your chosen short name.
  
+If Samsung Internet detects that your website is a PWA, it will dynamically display a plus
+icon in the URL bar, making it even easier to add it to your home screen. For more information, 
+see [Adding web apps to your homescreen](https://samsunginter.net/docs/homescreen).
+
+![Plus icon when tapped](/images/docs/pwa-homescreen2.png)
+
 In the same way, in Samsung Internet running on Samsung DeX, web apps can be added to the 
 desktop.
  
