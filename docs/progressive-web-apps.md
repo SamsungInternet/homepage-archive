@@ -58,7 +58,7 @@ screen along with your chosen short name.
  
 If Samsung Internet detects that your website is a PWA, it will dynamically display a plus
 icon in the URL bar, making it even easier to add it to your home screen. For more information, 
-see [Adding web apps to your homescreen](https://samsunginter.net/docs/homescreen).
+see [Ambient Badging](https://samsunginter.net/docs/ambient-badging) and [Adding web apps to your homescreen](https://samsunginter.net/docs/homescreen).
 
 ![Plus icon when tapped](/images/docs/pwa-homescreen2.png)
 
