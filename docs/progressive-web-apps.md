@@ -4,8 +4,6 @@ layout: page
 image: /images/header-images/lighthouse-beacon.jpg
 description: Samsung Internet support for PWA APIs
 ---
-# Progressive Web Apps
- 
 Progressive Web Apps (PWAs) are regular mobile and desktop web applications that are 
 accessible in any web browser. In browsers that support new open web standards - including 
 [Samsung Internet for Android](/about) - they can provide additional capabilities including 
