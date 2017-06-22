@@ -1,7 +1,7 @@
 ---
 title: QR code scanning
 layout: page
-image: /images/header-images/keyboard.jpg
+image: /images/header-images/blueprints.jpg
 twitter_image: https://samsunginter.net/images/docs/dev-tools.png
 description: How to use Samsung Internet's in-built QR code scanner
 ---
