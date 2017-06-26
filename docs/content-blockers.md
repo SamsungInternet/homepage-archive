@@ -10,8 +10,8 @@ content such as annoying adverts. They can help your privacy by blocking invasiv
 save your data usage and even improve your battery life.
 
 <figure>
-  <img src="/images/docs/content-blocker-before-after.png" alt="Content blocking before and after">
-  <figcaption>Without content blocking (left) and with content blocking (right)</figcaption>
+  <img src="/images/docs/content-blocker-before-after-anon.png" alt="Content blocking before and after">
+  <figcaption>Example of a page without content blocking (left) and with content blocking (right)</figcaption>
 </figure>
 
 Samsung Internet content blockers are third-party apps which are installed and then 
