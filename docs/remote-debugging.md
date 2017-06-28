@@ -54,7 +54,10 @@ the port number. For example, `127.0.0.1:4000`.
 
 ## Wireless debugging
 
-It is also possible to debug over Wi-Fi, instead of a USB connection. (This is particularly helpful for
-debugging Samsung Internet for Gear VR). [Check here for how to set up ADB](https://developer.android.com/studio/command-line/adb.html#wireless).
-You may find the [ADB Wireless app](https://play.google.com/store/apps/details?id=za.co.henry.hsu.adbwirelessbyhenry&hl=en_GB)
-useful in order to assist with this.
+It is also possible to debug over Wi-Fi, instead of a USB connection. This is particularly helpful for
+debugging Samsung Internet for Gear VR. 
+
+[Check here for how to set up ADB](https://developer.android.com/studio/command-line/adb.html#wireless).
+You may find it easiest to use an app like [ADB Wireless](https://play.google.com/store/apps/details?id=za.co.henry.hsu.adbwirelessbyhenry&hl=en_GB).
+
+To connect to a server running on your desktop computer from Samsung Internet for Gear VR, make sure your mobile device is on the same Wi-Fi network use your computer. Then you should be able to connect to the local site via the IP address for your computer. With ADB set up as above, you can visit `chrome://inspect` in Chrome on your desktop and you should see your open webpage listed for inspection under `com.sec.android.app.svrbrowser`.
