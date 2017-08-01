@@ -1,6 +1,16 @@
 ---
 ---
 
+#socials {
+	top: 150px;
+}
+
+.header h2 {
+  margin-top: 0;
+  font-size: 2em;
+  font-weight: 400;
+}
+
 .norm h2 {
   margin-bottom: 0.3em;
 }
@@ -39,11 +49,12 @@
 
 a.home,
 a.twitter,
+a.mastodon,
 a.medium,
 a.github,
 a.blog {
   padding-left: 35px;
-  background-size: 24px 24px;
+  background-size: 23px 23px;
   background-position: center left;
   background-repeat: no-repeat;
 }
@@ -54,6 +65,10 @@ a.home {
 
 a.twitter {
   background-image: url(/images/twitterlogo-purple.svg); 
+}
+
+a.mastodon {
+  background-image: url(/images/mastodonlogo-purple.svg);
 }
 
 a.medium {
@@ -76,6 +91,6 @@ a.github {
   background-color: #ccc;
   color: #444;
   font-size: 0.9em;
-  margin: 0 10px 5px 0;
+  margin: 0 8px 5px 0;
   white-space: nowrap;
 }
