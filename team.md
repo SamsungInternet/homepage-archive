@@ -21,7 +21,7 @@ description: Meet the Samsung Internet Developer Advocacy team
 
 <div class="profile">
   <img src="images/team/ada.jpg" alt="Ada Rose Edwards"/>
-  <p>Senior Engineer/Developer Advocate for Samsung Internet, Web Fangirl passionate about Web Performance, WebVR and Web Apps.</p>
+  <p>Senior Engineer / Developer Advocate for Samsung Internet, Web Fangirl passionate about Web Performance, WebVR and Web Apps.</p>
   <p class="profile-links"><a class="home" href="https://ada.is/">ada.is</a> <a class="twitter" href="https://twitter.com/Lady_Ada_King">@Lady_Ada_King</a> <a class="medium" href="https://medium.com/@Lady_Ada_King">medium.com/@Lady_Ada_King</a> <a class="github" href="https://github.com/AdaRoseEdwards">github.com/AdaRoseEdwards</a></p>
   <p class="tags"><span>#WebVR</span> <span>#ProgressiveWebApps</span> <span>#WebPerformance</span></p>
 </div>
