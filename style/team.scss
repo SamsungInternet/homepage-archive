@@ -1,8 +1,25 @@
 ---
 ---
 
+.norm h2 {
+  margin-bottom: 0.5em;
+}
+
+.location {
+  margin: 0 0 1em 0;
+  color: #666;
+  padding-left: 1.5em;
+  font-size: 0.9em;
+  background: url(/images/ico-location-grey.svg) center left no-repeat;
+  background-size: 1em 1em;
+}
+
+.profile {
+  margin-bottom: 1.5em;
+}
+
 .profile img {
-  max-width: 140px;
+  max-width: 120px;
   float: left;
   margin: 0 15px 15px 0;
 }
@@ -20,23 +37,31 @@
   margin-right: 30px;
 }
 
+a.home,
 a.twitter,
 a.medium,
 a.github,
 a.blog {
   padding-left: 35px;
+  background-size: 24px 24px;
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+
+a.home {
+  background-image: url(/images/homelogo-purple.svg);
 }
 
 a.twitter {
-  background: url(/images/twitterlogo-purple.svg) center left no-repeat; 
+  background-image: url(/images/twitterlogo-purple.svg); 
 }
 
 a.medium {
-  background: url(/images/mediumlogo-purple.svg) center left no-repeat;
+  background-image: url(/images/mediumlogo-purple.svg);
 }
 
 a.github {
-  background: url(/images/githublogo-purple.svg) center left no-repeat;
+  background-image: url(/images/githublogo-purple.svg);
 }
 
 .tags {
