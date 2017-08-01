@@ -1,0 +1,56 @@
+---
+---
+
+.profile img {
+  max-width: 140px;
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+.profile p:first-of-type {
+  margin-top: 0;
+}
+
+.profile-links {
+  margin-top: 0;
+  line-height: 1.5em;
+}
+
+.profile-links a {
+  margin-right: 30px;
+}
+
+a.twitter,
+a.medium,
+a.github,
+a.blog {
+  padding-left: 35px;
+}
+
+a.twitter {
+  background: url(/images/twitterlogo-purple.svg) center left no-repeat; 
+}
+
+a.medium {
+  background: url(/images/mediumlogo-purple.svg) center left no-repeat;
+}
+
+a.github {
+  background: url(/images/githublogo-purple.svg) center left no-repeat;
+}
+
+.tags {
+  line-height: 2em;
+}
+
+.tags span {
+  display: inline-block;
+  float: left;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #ccc;
+  color: #444;
+  font-size: 0.9em;
+  margin: 0 10px 5px 0;
+  white-space: nowrap;
+}
