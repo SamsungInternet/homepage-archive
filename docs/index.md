@@ -25,6 +25,9 @@ description: Documentation for the Samsung Internet Web Browser and the Samsung 
 <div class="icon-title"><a href="custom-tabs"><img src="/images/ico-custom-tab.svg" alt="Custom Tabs"></a>
 	<p><a href="custom-tabs">Custom Tabs</a></p>
 </div>
+<div class="icon-title"><a href="physical-web"><img src="/images/ico-closeby.svg" alt="Physical Web"></a>
+	<p><a href="physical-web">Physical Web</a></p>
+</div>
 <div class="icon-title"><a href="progressive-web-apps"><img src="/images/ico-progressive-web-apps.svg" alt="Progressive Web Apps"></a>
 	<p><a href="content-blockers">Progressive Web Apps</a></p>
 </div>

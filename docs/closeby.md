@@ -15,8 +15,9 @@ While enabled, you may receive a silent notification when a nearby beacon is det
 
 ## Browser support
 
-CloseBy is currently available in the v5.4 beta.
+CloseBy was introduced in Samsung Internet v5.4.
 
 ## Further resources
 
+* [Physical Web overview](/docs/physical-web)
 * ["Bringing the real world to your browser, with CloseBy"](https://medium.com/samsung-internet-dev/bringing-the-real-world-to-your-browser-with-closeby-830cd162547e)
