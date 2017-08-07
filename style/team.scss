@@ -1,0 +1,96 @@
+---
+---
+
+#socials {
+	top: 150px;
+}
+
+.header h2 {
+  margin-top: 0;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.norm h2 {
+  margin-bottom: 0.3em;
+}
+
+.location {
+  margin: 0 0 1em 0;
+  color: #666;
+  padding-left: 1.5em;
+  font-size: 0.9em;
+  background: url(/images/ico-location-grey.svg) center left no-repeat;
+  background-size: 1em 1em;
+}
+
+.profile {
+  margin-bottom: 1.5em;
+}
+
+.profile img {
+  max-width: 120px;
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+.profile p:first-of-type {
+  margin-top: 0;
+}
+
+.profile-links {
+  margin-top: 0;
+  line-height: 1.5em;
+}
+
+.profile-links a {
+  margin-right: 30px;
+}
+
+a.home,
+a.twitter,
+a.mastodon,
+a.medium,
+a.github,
+a.blog {
+  padding-left: 35px;
+  background-size: 23px 23px;
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+
+a.home {
+  background-image: url(/images/homelogo-purple.svg);
+}
+
+a.twitter {
+  background-image: url(/images/twitterlogo-purple.svg); 
+}
+
+a.mastodon {
+  background-image: url(/images/mastodonlogo-purple.svg);
+}
+
+a.medium {
+  background-image: url(/images/mediumlogo-purple.svg);
+}
+
+a.github {
+  background-image: url(/images/githublogo-purple.svg);
+}
+
+.tags {
+  line-height: 2em;
+}
+
+.tags span {
+  display: inline-block;
+  float: left;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #ccc;
+  color: #444;
+  font-size: 0.9em;
+  margin: 0 8px 5px 0;
+  white-space: nowrap;
+}

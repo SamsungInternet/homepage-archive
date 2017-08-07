@@ -34,4 +34,4 @@ Key links:
 * [Samsung Internet overview page](http://www.samsung.com/global/galaxy/apps/samsung-internet/)
 * [Official developer documentation](http://developer.samsung.com/internet)
 
-This Developer Hub is maintained by the [developer advocacy team](https://twitter.com/samsunginternet).
+This Developer Hub is maintained by the [developer advocacy team](/team).
