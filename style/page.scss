@@ -11,6 +11,10 @@
   font-weight: 400;
 }
 
+h2 {
+  margin: 1em 0 0.5em 0;
+}
+
 pre {
   overflow-x: auto;
   background-color: #eee;
@@ -77,4 +81,16 @@ figcaption {
   .header h2 {
     max-width: 50%;
   }
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+table td,
+table th {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: left;
 }
