@@ -4,6 +4,8 @@ layout: team
 image: /images/team/team-suwon-2016.jpg
 description: Meet the Samsung Internet Developer Advocacy team
 ---
+The Developer Hub is maintained by the Samsung Internet Developer Advocacy team:
+
 ## Daniel Appelquist
 
 <p class="location">Based in the UK</p>
