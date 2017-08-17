@@ -51,7 +51,6 @@ main img {
 
 .doc-subsection p {
   margin: 0 0 0 8px;
-  text-align: center;
   font-size: 0.9em;
   min-width: 0;
 }
@@ -77,6 +76,7 @@ figcaption {
   .doc-subsection p {
     margin: 2px 0 0 0;
     font-size: 1em;
+    text-align: center;
   }
   .header h2 {
     max-width: 50%;
