@@ -44,7 +44,7 @@ description: Documentation for the Samsung Internet Web Browser and the Samsung 
 	<p><a href="skybox">Skybox API</a></p>
 </div>
 <div class="icon-title"><a href="web-bluetooth"><img src="/images/ico-bluetooth.svg" alt="Web Bluetooth"></a>
-	<p><a href="web-payments">Web Bluetooth</a></p>
+	<p><a href="web-bluetooth">Web Bluetooth</a></p>
 </div>
 <div class="icon-title"><a href="web-payments"><img src="/images/ico-payment.svg" alt="Web Payments"></a>
 	<p><a href="web-payments">Web Payments</a></p>
