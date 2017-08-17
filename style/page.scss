@@ -29,24 +29,15 @@ main img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
-
-  /*
-  &:after{
-    content: "";
-    flex: auto;
-    flex-grow: 1;
-  }
-  */
+  padding-top: 10px;
 }
 
 .doc-subsection .icon-title {
-  flex-basis: 125px;
-}
-
-.doc-subsection .icon-title a {
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-basis: 260px;
 }
 
 .doc-subsection img {
@@ -55,16 +46,10 @@ main img {
 }
 
 .doc-subsection p {
-  margin-top: 2px;
+  margin: 0 0 0 8px;
   text-align: center;
   font-size: 0.9em;
   min-width: 0;
-}
-
-.icon-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 figcaption {
@@ -74,12 +59,19 @@ figcaption {
 
 @media (min-width:700px) {
   .doc-subsection .icon-title {
-    min-width: 150px;
+    flex-basis: 180px;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .doc-subsection .icon-title a {
+    margin: 0 auto;
   }
   .doc-subsection img {
-    width: 100px;
+    width: 90px;
   }
   .doc-subsection p {
+    margin: 2px 0 0 0;
     font-size: 1em;
   }
   .header h2 {
