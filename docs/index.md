@@ -29,7 +29,7 @@ description: Documentation for the Samsung Internet Web Browser and the Samsung 
 	<p><a href="physical-web">Physical Web</a></p>
 </div>
 <div class="icon-title"><a href="progressive-web-apps"><img src="/images/ico-progressive-web-apps.svg" alt="Progressive Web Apps"></a>
-	<p><a href="content-blockers">Progressive Web Apps</a></p>
+	<p><a href="progressive-web-apps">Progressive Web Apps</a></p>
 </div>
 <div class="icon-title"><a href="qr-code-scanning"><img src="/images/ico-qr-code.svg" alt="QR Codes"></a>
 	<p><a href="qr-code-scanning">QR Code Scanning</a></p>
