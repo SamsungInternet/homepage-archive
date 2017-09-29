@@ -8,7 +8,7 @@ Samsung Internet supports [WebVR](https://w3c.github.io/webvr/), the open web st
 
 ## Browser support
 
-Samsung Internet for Gear VR and Samsung Internet for Android have experimental WebVR support available behind a flag. Visit `internet://flags` to enable it.
+Samsung Internet for Gear VR and Samsung Internet for Android v6+ have experimental WebVR support available behind a flag. Visit `internet://flags` to enable it.
 
 ## Further resources
 
