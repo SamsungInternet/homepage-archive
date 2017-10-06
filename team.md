@@ -71,3 +71,15 @@ The Developer Hub is maintained by the Samsung Internet Developer Advocacy team:
   <p class="profile-links"><a class="home" href="http://uveavanto.com">uveavanto.com</a> <a class="twitter" href="https://twitter.com/uveavanto">@uveavanto</a> <a class="medium" href="https://medium.com/@uveavanto">medium.com/@uveavanto</a> <a class="github" href="https://github.com/uveavanto">github.com/uveavanto</a></p>
   <p class="tags"><span>#WebVR</span> <span>#WebGaming</span> <span>#ProgressiveWebApps</span></p>
 </div>
+
+## Jo Franchetti
+
+<p class="location">Based in the UK</p>
+
+<div class="profile">
+  <img src="images/team/jo.jpg" alt="Jo Franchetti"/>
+  <p>Developer Advocate <a href="https://twitter.com/samsunginternet">@samsunginternet</a>, Front end developer, passionate about accessibility, performance and beautiful css. I am an organiser at <a href="https://twitter.com/codebar">@Codebar</a> and am dedicated to making the web and the tech industry a better, more inclusive, diverse place.</p>
+  <p class="profile-links"><a class="twitter" href="https://twitter.com/thisisjofrank">@thhisisjofrank</a> <a class="github" href="https://github.com/thisisjofrank">github.com/thisisjofrank</a>
+  </p>
+  <p class="tags"><span>#ProgressiveWebApps</span></p>
+</div>
