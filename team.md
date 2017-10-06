@@ -79,7 +79,7 @@ The Developer Hub is maintained by the Samsung Internet Developer Advocacy team:
 <div class="profile">
   <img src="images/team/jo.jpg" alt="Jo Franchetti"/>
   <p>Developer Advocate <a href="https://twitter.com/samsunginternet">@samsunginternet</a>, Front end developer, passionate about accessibility, performance and beautiful css. I am an organiser at <a href="https://twitter.com/codebar">@Codebar</a> and am dedicated to making the web and the tech industry a better, more inclusive, diverse place.</p>
-  <p class="profile-links"><a class="twitter" href="https://twitter.com/thisisjofrank">@thhisisjofrank</a> <a class="github" href="https://github.com/thisisjofrank">github.com/thisisjofrank</a>
+  <p class="profile-links"><a class="twitter" href="https://twitter.com/thisisjofrank">@thisisjofrank</a> <a class="github" href="https://github.com/thisisjofrank">github.com/thisisjofrank</a>
   </p>
   <p class="tags"><span>#ProgressiveWebApps</span></p>
 </div>
