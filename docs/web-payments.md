@@ -3,6 +3,7 @@ title: Web Payments
 layout: page
 image: /images/header-images/payment-card.jpg
 description: Take payments on the web with the requestPayment API
+redirect_from: "/payments"
 ---
 Samsung Internet supports the [Payment Request API](https://www.w3.org/TR/payment-request/), providing
 a consistent, easy-to-use check-out experience.
@@ -41,6 +42,12 @@ if (window.PaymentRequest) {
   // Use a legacy checkout method for browsers without support
 }
 ```
+
+## Adding Samsung Pay support
+
+Samsung Pay is accepted virtually anywhere you can swipe or tap your card with MSD and NFC support. 
+Samsung Pay makes transactions super easy — pay with just your fingerprint. To accept Samsung Pay 
+payments on your webpage, check back soon for more information about this integration. 
 
 ## Demos
 

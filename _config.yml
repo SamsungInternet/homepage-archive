@@ -7,3 +7,5 @@ name: Samsung Internet Developer Hub
 permalink: /:title.html
 excerpt_separator: qwertyuiopsdfghjkl
 breakpoint: 640px
+plugins:
+  - jekyll-redirect-from
