@@ -49,4 +49,7 @@ description: Documentation for the Samsung Internet Web Browser and the Samsung 
 <div class="icon-title"><a href="web-payments"><img src="/images/ico-payment.svg" alt="Web Payments"></a>
 	<p><a href="web-payments">Web Payments</a></p>
 </div>
+<div class="icon-title"><a href="webvr"><img src="/images/ico-skybox.svg" alt="WebVR"></a>
+	<p><a href="webvr">WebVR</a></p>
+</div>	
 </div>
