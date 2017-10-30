@@ -39,7 +39,7 @@ if (window.PaymentRequest) {
 
 Samsung Pay makes transactions super easy — pay with just your fingerprint, no CVV required! Samsung Pay uses secure tokenized payments, meaning that you do not have to handle sensitive credit card data. Samsung Pay is accepted virtually anywhere you can swipe or tap your card with [MST](https://www.samsung.com/us/support/answer/ANS00043865/) and NFC support.
 
-Samsung Internet supports Samsung Pay as a payment method, subject to Samsung Pay availability by location. To register your interest and receive further information, please email [web-payment@samsungpay.com](mailto:web-payment@samsungpay.com).
+Samsung Internet supports Samsung Pay as a payment method, subject to Samsung Pay availability by location. [See here for further details](https://medium.com/samsung-internet-dev/how-to-accept-samsung-pay-on-your-website-using-web-payments-c2fcd4d26c02) and [register your interest using this form](https://docs.google.com/forms/d/e/1FAIpQLScTMv4vlvgrmxk5CxoI6qFKki4Fdd9tig3jQQKowjLu6UKgAA/viewform).
 
 ## Demos
 
