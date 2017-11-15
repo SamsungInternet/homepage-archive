@@ -5,11 +5,9 @@ image: /images/header-images/bluetooth-drone.jpg
 description: Access and control Bluetooth Low Energy devices from your web browser 
 ---
 Support for [Web Bluetooth](https://github.com/WebBluetoothCG/web-bluetooth) has been introduced from Samsung Internet v6.x, 
-behind a flag. Currently, [v6.2 is available as a beta](https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser.beta).
+behind a flag.
 
-Web Bluetooth is currently an experimental web feature and support is a work in progress. 
-It can be enabled by switching on the `internet://flags/#enable-web-bluetooth/` flag and 
-relaunching Samsung Internet.
+Web Bluetooth is currently an experimental web feature. It can be enabled by switching on the `internet://flags/#enable-web-bluetooth/` flag and relaunching Samsung Internet.
 
 *Please note that Android 6.0 Marshmallow or later is required.*
 
