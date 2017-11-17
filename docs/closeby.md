@@ -17,12 +17,12 @@ While enabled, you may receive a silent notification when a nearby beacon is det
 
 The URL must be advertised in the [Eddystone-URL](https://github.com/google/eddystone/tree/master/eddystone-url) format. Furthermore, the page that the URL resolves to:
 
-• Must be served over HTTPS
-• Must not be blocked by robots.txt
-• Must not include malicious contents / malware
-• Must be found and reachable, without timing out
-• Must not have an SSL certificate error
-• Must not be empty
+* Must be served over HTTPS
+* Must not be blocked by robots.txt
+* Must not include malicious contents / malware
+* Must be found and reachable, without timing out
+* Must not have an SSL certificate error
+* Must not be empty
 
 ## Browser support
 
