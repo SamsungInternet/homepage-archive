@@ -33,5 +33,6 @@ Key links:
 
 * [Samsung Internet overview page](http://www.samsung.com/global/galaxy/apps/samsung-internet/)
 * [Official developer documentation](http://developer.samsung.com/internet)
+* [Samsung Internet Diversity & Inclusion Statement](http://samsunginter.net/diversity-inclusion-statement)
 
 This Developer Hub is maintained by the [developer advocacy team](/team).
