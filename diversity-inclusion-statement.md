@@ -6,7 +6,7 @@ Diversity and inclusion in the technology industry are subjects that are [close 
 
 Tech events are a highly visible face of the tech industry. Not only are the speakers representatives of their respective companies and technologies, but they will act as role models for attendees and external audiences. It is therefore vital that speaker lineups represent the diverse range of people who work in technology and that events foster an inclusive and welcoming experience for all of their potential attendees, no matter their gender, race, sexual orientation, religion, national origin, disability or any other factor. Any organisation that participates in tech events needs be pay attention to these issues and work to make these events more diverse and more welcoming.
 
-![](https://cdn-images-1.medium.com/max/NaN/0*kjTBvvthf7Fm8g-P.)
+![the Diversity Charter logo](https://cdn-images-1.medium.com/max/600/1*Ytr6VJ7HZnNiHrf8phWNKg.png)
 
 That is why we have signed up to support the [Diversity Charter](http://diversitycharter.org/) for technology events.
 
