@@ -1,6 +1,6 @@
-# Diversity and Inclusion at Tech Events
+# Statement on Diversity and Inclusion at Tech Events
 
-November 2017
+27 November 2017
 
 Diversity and inclusion in the technology industry are subjects that are [close to the heart](https://medium.com/samsung-internet-dev/supporting-diversity-at-tech-events-8b004965c0bd) of the Samsung Internet team. We value fostering a diverse and inclusive technology industry because it is the [right thing to do](https://beta.theglobeandmail.com/news/politics/trudeaus-because-its-2015-retort-draws-international-cheers/article27119856/?ref=http://www.theglobeandmail.com&). If that isn’t a strong enough argument, then having a diverse team and diverse representatives has proven again and again to create [better](http://www.tandfonline.com/doi/abs/10.5172/impp.2013.15.2.149) products, foster a better [work](https://saharconsulting.wordpress.com/2011/08/01/diversity-equals-positive-work-environment/) [environment](https://hbr.org/2016/09/diverse-teams-feel-less-comfortable-and-thats-why-they-perform-better) and, if you need the business case, to [improve](http://www.catalyst.org/media/companies-more-women-board-directors-experience-higher-financial-performance-according-latest) the [bottom](http://www.tandfonline.com/doi/abs/10.1111/ecge.12016) [line](https://www.forbes.com/sites/ruchikatulshyan/2015/01/30/racially-diverse-companies-outperform-industry-norms-by-30/#45dfed611132).
 
