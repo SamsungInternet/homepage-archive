@@ -56,7 +56,7 @@ The Developer Hub is maintained by the Samsung Internet Developer Advocacy team:
 
 <div class="profile">
   <img src="images/team/peter.jpg" alt="Peter O'Shaughnessy"/>
-  <p>Peter has been developing things for the Web since the last millennium. He loves to speak about up-and-coming Web APIs and the future of browsers.</p>
+  <p>Peter is a web developer who loves to explore up-and-coming Web APIs and share his enthusiasm for the open web and the future of browsers.</p>
   <p class="profile-links"><a class="home" href="https://peteroshaughnessy.com">peteroshaughnessy.com</a> <a class="twitter" href="https://twitter.com/poshaughnessy">@poshaughnessy</a> <a class="medium" href="https://medium.com/@poshaughnessy">medium.com/@poshaughnessy</a> <a class="github" href="https://github.com/poshaughnessy">github.com/poshaughnessy</a></p>
   <p class="tags"><span>#WebPayments</span> <span>#WebBluetooth</span> <span>#ProgressiveWebApps</span></p>
 </div>
