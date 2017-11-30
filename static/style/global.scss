@@ -1,0 +1,278 @@
+---
+# Styling for global elements, headers/footers etc
+---
+
+html {
+	background-color: #151213;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.3em;
+	color: #151213;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.2rem;
+}
+
+.wf-samsungone-n4-active body,
+.wf-samsungone-n7-active body {
+	font-family: 'Samsung One', Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, p, span {
+	line-height: 1.3em;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+main {
+	margin: auto;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color:white;
+	margin: 2em;
+}
+
+#devhublogo {
+	width: 12em;
+	margin: 1.5em;
+}
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+	color: #4c3f7f;
+}
+
+.main-container {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: flex-start;
+	margin: auto;
+}
+
+.main-header {
+	display: flex;
+	color: #FFFFFF;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	position: relative;
+	align-content: flex-start;
+	width: 100%;
+}
+
+.header {
+	z-index: 100;
+	color: #FFFFFF;
+	width: 100%;
+
+	.showcase {
+		z-index: 60;
+		padding: 0.8em 2em 2em 2em;
+
+		a:link, a:visited, a:hover, a:active{
+			color: #FFFFFF;
+		}
+	}
+
+	.showcase-text {
+		font-style: italic;
+		color: silver;
+		text-shadow: 1px 1px 2px #231F20;
+	}
+
+	.showcase-shadow{
+		text-shadow: 1px 1px 2px #231F20;
+		text-decoration: none;
+	}
+}
+
+.main-header_bg {
+	background-image: url('../images/bg.jpg');
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='15'); /* IE lte 9 */
+	-webkit-filter: blur(5px) brightness(60%) saturate(150%); /* Prefixed CSS3 blur filters */
+	-moz-filter: blur(5px) brightness(60%) saturate(150%);
+	-ms-filter: blur(10px) brightness(60%) saturate(150%);
+	filter: blur(5px) brightness(60%) saturate(150%);
+	background-size: cover;
+	background-position: center center;
+	box-shadow: inset 1em 1em 5em 3em #231F20;
+	z-index: 0;
+	width: 100%;
+	position: absolute;
+	height: 350px;
+}
+
+.norm {
+	margin: 1em 1.5em 2em 1.5em;
+	position: relative;
+	z-index: 50;
+	background-color: #FFFFFF;
+	min-height: 100px;
+	padding: 1em 1.5em 1.5em 1.5em;
+	display: flex;
+	flex-direction: column;
+	border-radius: .6em .6em .6em .6em;
+
+	a {
+		color: #4c3f7f;
+	}
+
+	a:visited {
+		color: #4c3f7f;
+	}
+
+	a:hover {
+		color: #6141e3;
+	}
+}
+
+
+.hamburger {
+	font-size: 3em;
+	position: absolute;
+	left: 85%;
+	top: 0.5em;
+	z-index: 110;
+	cursor: pointer;
+}
+
+
+.burger-menu_open {
+	display: flex;
+}
+
+#burger-menu {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, .97);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 200;
+	color: #231F20;
+	flex-direction: column;
+}
+
+#burger-menu a {
+	margin: 0.5em;
+	font-size: 1.5em;
+	display: block;
+	color: #231F20;
+}
+
+#menu-header {
+	display: block;
+}
+
+.socialicon {
+	margin: .5em;
+	width: 1.5em;
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+}
+
+#socials {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#nav-links {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.1rem;
+}
+
+.burger-menu_open {
+	display: flex;
+}
+
+.burger-menu_close {
+	display: none;
+}
+
+@media (max-width:400px) {
+	.norm {
+		margin: 1em .1em 2em .1em;
+		position: relative;
+		z-index: 50;
+		background-color: #FFFFFF;
+		min-height: 100px;
+		padding: 0em 1.5em 1.5em 1.5em;
+		display: flex;
+		flex-direction: column;
+		border-radius: .6em .6em .6em .6em;
+	}
+	.header .showcase {
+		padding: 0 2em 2em 2em;
+	}
+}
+
+@media (min-width:700px) {
+	main {
+		margin: auto;
+		max-width: 1200px;
+	}
+	#burger-menu {
+		width: 100%;
+		height: auto;
+		background-color: transparent;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		z-index: 200;
+		color: #FFFFFF;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-start;
+	}
+	#burger-menu a:link,
+	a:visited,
+	a:active,
+	a:hover,
+	#burger-menu a {
+		color: #FFFFFF;
+		flex-grow: 2;
+		font-size: 1em;
+	}
+	#menu-header,
+	.hamburger {
+		display: none;
+	}
+	#socials {
+		position: absolute;
+		top: 280px;
+		right: 0em;
+	}
+	#nav-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		align-content: flex-end;
+		width: 60%;
+	}
+	.socialicon {
+		width: 1.5em;
+		filter: invert(0%);
+		-webkit-filter: invert(0%);
+	}
+	.burger-menu_open {
+		display: flex;
+	}
+}

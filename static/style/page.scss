@@ -1,0 +1,96 @@
+---
+---
+
+#socials {
+	top: 150px;
+}
+
+.header h2 {
+  margin-top: 0;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+h2 {
+  margin: 1em 0 0.5em 0;
+}
+
+pre {
+  overflow-x: auto;
+  background-color: #eee;
+  padding: 10px;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+main img {
+  max-width: 100%;
+}
+
+.doc-subsection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+.doc-subsection .icon-title {
+  display: flex;
+  align-items: center;
+  flex-basis: 260px;
+}
+
+.doc-subsection img {
+  padding: .5em;
+  width: 60px;
+}
+
+.doc-subsection p {
+  margin: 0 0 0 8px;
+  font-size: 0.9em;
+  min-width: 0;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+@media (min-width:700px) {
+  .doc-subsection .icon-title {
+    flex-basis: 180px;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .doc-subsection .icon-title a {
+    margin: 0 auto;
+  }
+  .doc-subsection img {
+    width: 90px;
+  }
+  .doc-subsection p {
+    margin: 2px 0 0 0;
+    font-size: 1em;
+    text-align: center;
+  }
+  .header h2 {
+    max-width: 50%;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+table td,
+table th {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: left;
+}

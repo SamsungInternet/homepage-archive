@@ -1,0 +1,4 @@
+baseURL: http://example.org/
+disablePathToLower: true
+languageCode: en-us
+title: My New Hugo Site

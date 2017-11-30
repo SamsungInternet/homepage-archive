@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" width="235.404" height="235.404" viewBox="0 0 235.40 235.40" enable-background="new 0 0 235.40 235.40" xml:space="preserve">
+	<g>
+		<rect x="2" y="2" fill="none" stroke-width="4" stroke-linejoin="round" stroke="#151213" stroke-opacity="1" width="231.404" height="231.404"/>
+		<g>
+			<path fill="none" stroke-width="3" stroke-linejoin="round" stroke="#151213" stroke-opacity="1" d="M 95.5554,91.9016C 101.505,86.7908 109.241,83.7022 117.7,83.7022C 126.224,83.7022 134.016,86.8394 139.983,92.022"/>
+			<path fill="none" stroke-width="3" stroke-linejoin="round" stroke="#151213" stroke-opacity="1" d="M 117.701,109.702C 122.12,109.702 125.701,113.284 125.701,117.702C 125.701,122.12 122.12,125.702 117.701,125.702C 113.283,125.702 109.701,122.12 109.701,117.702C 109.701,113.284 113.283,109.702 117.701,109.702 Z "/>
+			<path fill="none" stroke-width="3" stroke-linejoin="round" stroke="#151213" stroke-opacity="1" d="M 104.399,104.399C 107.803,100.995 112.506,98.8892 117.701,98.8892C 122.279,98.8892 126.474,100.524 129.736,103.241"/>
+			<ellipse fill="none" stroke-width="3" stroke-linejoin="round" stroke="#151213" stroke-opacity="1" cx="117.702" cy="117.702" rx="47.5524" ry="47.5524"/>
+		</g>
+	</g>
+</svg>

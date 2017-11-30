@@ -1,0 +1,26 @@
+{
+  "name": "samsung-internet-dev-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:templates": "cp node_modules/handlebars/dist/handlebars.runtime.min.js scripts/ ; find _templates/ -iname *.handlebars -exec sh -c 'handlebars {} -f scripts/compiled-templates/$(basename --suffix=.handlebars {}).js' \\;",
+    "build": "npm run build:templates"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samsunginternet/samsunginternet.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samsunginternet/samsunginternet.github.io/issues"
+  },
+  "homepage": "https://github.com/samsunginternet/samsunginternet.github.io#readme",
+  "dependencies": {
+    "handlebars": "^4.0.6"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.7.5"
+  }
+}

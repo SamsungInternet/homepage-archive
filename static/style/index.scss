@@ -1,0 +1,39 @@
+---
+---
+
+.norm-subSection_feed {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+.feed-item {
+	max-width: 45em;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 20em;
+	padding: .5em 1em 1em 1em;
+}
+
+.feed-item_image {
+	border-radius: 25px;
+	background-size: cover;
+	height: 5rem;
+	width: 5rem;
+	float: left;
+	margin: 1.5rem 1rem 1rem 0;
+	box-shadow: 0 1px 1px 1px #aaa;
+	object-fit: cover;
+}
+
+.title-icon {
+	width: 1em;
+	padding-top: .3em;
+}
+
+.view-more {
+	margin-bottom: 2em;
+}

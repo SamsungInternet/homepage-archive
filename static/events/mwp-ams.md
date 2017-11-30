@@ -1,0 +1,53 @@
+---
+title: Mobile Web Progress Amsterdam 2017 
+layout: event
+image: /images/header-images/amsterdam.jpg
+logo: /images/events/mwp-ams.svg
+description: An evening meetup on the topic of progressive web apps, Wednesday 10th May 2017 
+---
+<div class="event-well">
+    <h2>Mobile Web Progress Amsterdam - 10th May 2017</h2>
+    <p>On Wednesday 10th of May we’ll have a small evening meet-up in Amsterdam on the topic of progressive web apps. Don’t expect the basics; our two speakers aim to take you well beyond that with some advanced tips and tricks. The entrance fee will be 5 euros, and proceeds will be donated to a charity for teaching children how to program.</p>
+
+    <p class="call-to-action full-row"><a href="https://webconferences.paydro.com/pwa-meet-up">Get your tickets here</a></p>
+
+    <div class="event-well-item">
+        <h3><a href="https://twitter.com/torgo">Daniel Appelquist</a></h3>
+        <img src="https://mobcon.com/wp-content/uploads/2017/01/Daniel-Appelquist.jpg" class="speaker-pic">
+        <h4>The Web Bites Back</h4>
+        <p>The rise of mobile apps has had an enormous impact on how people create, consume and share information, how they play games, how they organize their lives. But in the rush to build bigger and better mobile apps, we’ve forgotten one lesson we should have learned from the rise of the Internet in the 1990s: open is better. Meanwhile, the web platform has been undergoing a quiet revolution. New technologies such as web payment, progressive enhancement, off-line use, save-to-homescreen and push notifications are creating a revolution in web applications bringing the best aspects of mobile apps to the web while still keeping the web webby.</p>
+    </div>
+    <div class="event-well-item"><h3><a href="https://twitter.com/ioana_cis">Ioana Chiorean</a></h3>
+        
+        <img src="https://pbs.twimg.com/profile_images/798036990461624321/DckqjgK9.jpg" class="speaker-pic">
+        <h4>Building Off-Line Webapps</h4>
+        <p> As we spend so much of our time on mobile phones, using them to look for different things - either a new scientific discovery or the next recipe to try out - our expectations from the (mobile) web have grown exponentially. With Progressive Web Apps, developers can deliver now amazing app-like experiences to users that work offline. In this trade off, how much should we use caching and other storage techniques, to substantially improve the user experience? We will talk about how Service Workers help us become connectivity-independent, some good and helpful examples and also our lessons learned.</p>
+    </div>
+    <div class="event-well-item"><h2>Venue</h2>
+        <h3>Desmet Studio’s Amsterdam bv</h3>
+        http://www.desmet.tv/ <br>
+        Plantage Middenlaan 4a<br>
+        1018DD Amsterdam<br>
+        <a href="https://goo.gl/maps/aGvU81pBaG62">See it on a map</a>.
+    </div>
+    <div class="event-well-item"><h2>Schedule (provisional)</h2>
+        <p><strong>6pm:</strong> Doors open and drinks will be available.</p>
+        <p><strong>7.30pm to 9.15pm:</strong> The talks (with an interval in between).</p>
+        <p><strong>9.15pm to close:</strong> Networking/drinks.</p>
+    </div>
+    <div class="event-well-item">
+        <h2>Code of Conduct</h2>
+        <p>We are using the crowd-source conference code of conduct. If you have any questions about this please contact the organizers. You can check it out <a href="http://confcodeofconduct.com/">here</a>.</p>
+    </div>
+    <div class="event-well-item">
+        <h2>Get your ticket</h2>
+        <p>Ticket fee is 5€, which will be donated to a charity for teaching children coding skills.</p>
+        <p class="call-to-action"><a href="https://webconferences.paydro.com/pwa-meet-up">Get your tickets here</a></p>
+    </div>
+    <div>
+        <h2>Sponsors</h2>
+        <a href="https://samsunginter.net/"><img src="/images/assets/samsunginternetlogo.png" class="sponsor-logo"></a>
+        <a href="https://mozilla.org"><img src="/images/assets/mozlogo.jpg" class="sponsor-logo"></a>
+        <a href="https://developer.microsoft.com/en-us/microsoft-edge/"><img src="/images/assets/edgelogo.png" class="sponsor-logo"></a>
+    </div>
+</div>

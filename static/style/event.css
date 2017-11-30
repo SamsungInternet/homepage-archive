@@ -1,0 +1,46 @@
+.event-well {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.event-well-item {
+    max-width: 30rem;
+    flex-grow: 1;
+    flex-basis: 30rem;
+    padding: 1.5rem;
+}
+
+.sponsor-logo {
+    max-height: 4rem;
+    margin: .5rem;
+}
+
+.speaker-pic {
+    width: 80px;
+    height: 80px;
+}
+
+.event-well-item .call-to-action {
+    margin-top: 2em;
+}
+
+.call-to-action a {
+    background-color: #4c3f7f;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px 10px;
+    font-size: 1.2em;
+}
+
+.norm .call-to-action a:hover,
+.norm .call-to-action a:active,
+.norm .call-to-action a:visited {
+    color: #fff;
+}
+
+.full-row {
+    flex-basis: 100%;
+}

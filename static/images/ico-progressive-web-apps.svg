@@ -1,0 +1,18 @@
+<svg width="235.4" height="235.4" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" height="231.404" width="231.404" stroke="#151213" stroke-linejoin="round" stroke-width="4" fill="none" y="1.99988" x="2"/>
+  <path stroke="#151213" id="svg_12" d="m87.540481,29.984713l56.007128,0c6.88052,0 12.458197,5.563955 12.458197,12.42717l0,142.575867c0,6.863592 -5.577677,12.427547 -12.458197,12.427547l-56.007128,0c-6.88052,0 -12.458197,-5.563955 -12.458197,-12.427547l0,-142.575867c0,-6.863215 5.577677,-12.42717 12.458197,-12.42717z" stroke-linejoin="round" stroke-width="3" fill="none"/>
+  <g stroke="null" transform="matrix(0.4568268555780618,0,0,0.43954105474383925,-406.21664198456654,-385.90579760242235) " id="svg_26">
+   <path stroke="#000000" id="svg_27" d="m1197.166464,1104.774231l0,72.9126l-109.3688,0l0,-72.9126l54.6848,-36.4562l54.684,36.4562z" stroke-linejoin="round" stroke-width="3" fill="none"/>
+   <g stroke="null" id="svg_28">
+    <path stroke="null" id="svg_29" d="m1169.897464,1132.918831l-23.332,0l0,23.332l-8.166,0l0,-23.332l-23.3323,0l0,-8.166l23.3323,0l0,-23.3325l8.166,0l0,23.3325l23.332,0l0,8.166z" stroke-linejoin="round" stroke-width="0.2" fill="#000000"/>
+   </g>
+  </g>
+ </g>
+</svg>
