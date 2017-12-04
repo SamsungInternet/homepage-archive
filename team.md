@@ -61,17 +61,6 @@ The Developer Hub is maintained by the Samsung Internet Developer Advocacy team:
   <p class="tags"><span>#WebPayments</span> <span>#WebBluetooth</span> <span>#ProgressiveWebApps</span></p>
 </div>
 
-## Uve
-
-<p class="location">Based in the UK</p>
-
-<div class="profile">
-  <img src="images/team/uve.jpg" alt="Yuvesh Tulsiani"/>
-  <p>Uve is a Developer Advocate for Samsung Internet. They love hacking all types of tech together and encouraging inclusivity in the tech community. Their favourite colour is #b19cd9 and will put the :sparkles: emoji everywhere unless stopped.</p>
-  <p class="profile-links"><a class="home" href="http://uveavanto.com">uveavanto.com</a> <a class="twitter" href="https://twitter.com/uveavanto">@uveavanto</a> <a class="medium" href="https://medium.com/@uveavanto">medium.com/@uveavanto</a> <a class="github" href="https://github.com/uveavanto">github.com/uveavanto</a></p>
-  <p class="tags"><span>#WebVR</span> <span>#WebGaming</span> <span>#ProgressiveWebApps</span></p>
-</div>
-
 ## Jo Franchetti
 
 <p class="location">Based in the UK</p>
