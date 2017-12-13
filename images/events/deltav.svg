@@ -1,0 +1,17 @@
+<svg width="196" height="126.83" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1,.cls-3{fill:#000;}.cls-1,.cls-2{stroke:#000;stroke-miterlimit:10;stroke-width:2px;}.cls-2{fill:none;}</style>
+ </defs>
+ <title>Artboard 1 copy</title>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="128.83" width="198" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m104.359985,116.300003l-54.569977,0l16.100006,-27.93l22.369995,0l16.099976,27.93z" class="cls-1"/>
+  <path id="svg_2" d="m42.170013,116.300003l-32.290009,0l47.22998,-81.750004l16.100006,27.930004l-31.039978,53.82z" class="cls-1"/>
+  <path id="svg_3" d="m120.070007,88.57l47.809998,-81.940001l16.51001,27.85l-47.910034,82.139996" class="cls-2"/>
+  <path id="svg_4" d="m104.380005,116.300003l31.419983,0.289993l-62.629974,-109.759996l-16.100006,27.730001l47.309998,81.740002z" class="cls-2"/>
+ </g>
+</svg>
