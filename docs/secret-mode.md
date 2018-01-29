@@ -1,5 +1,5 @@
 ---
-title: Turning on Secret Mode
+title: Secret Mode
 layout: page
 image: /images/header-images/blueprints.jpg
 description: Using Secret Mode in Samsung Internet
