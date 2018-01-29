@@ -8,7 +8,7 @@ description: Using Secret Mode in Samsung Internet
 * [How to enable Secret Mode](#how-to-enable)
 * [What does Secret Mode do?](#what-does-secret-mode-do)
 
-<h2 name="how-to-enable">How to enable Secret Mode</h2>
+<h2 id="how-to-enable">How to enable Secret Mode</h2>
 
 ### Step 1
 
@@ -41,7 +41,7 @@ If you enable a password you will be promoted to enter it whenever you tap on th
 ![homescreen with new pwa icon](/images/docs/secret-mode-4.png)
 
 
-<h2 name="what-does-secret-mode-do">What does Secret Mode do?</h2>
+<h2 id="what-does-secret-mode-do">What does Secret Mode do?</h2>
 
 When in Secret Mode, no history data is recorded by the browser and all cookies are deleted when you exit. So once you leave secret mode, you won’t be able to look back and see what sites you were on.
 
