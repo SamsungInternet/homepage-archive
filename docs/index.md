@@ -17,11 +17,9 @@ description: Documentation for the Samsung Internet Web Browser and the Samsung 
 <div class="icon-title"><a href="closeby"><img src="/images/ico-closeby.svg" alt="CloseBy"></a>
 	<p><a href="closeby">CloseBy</a></p>
 </div>
-<!--
 <div class="icon-title"><a href="content-blockers"><img src="/images/ico-content-blockers.svg" alt="Content Blockers"></a>
 	<p><a href="content-blockers">Content Blockers</a></p>
 </div>
--->
 <div class="icon-title"><a href="custom-tabs"><img src="/images/ico-custom-tab.svg" alt="Custom Tabs"></a>
 	<p><a href="custom-tabs">Custom Tabs</a></p>
 </div>
@@ -42,6 +40,9 @@ description: Documentation for the Samsung Internet Web Browser and the Samsung 
 </div>
 <div class="icon-title"><a href="skybox"><img src="/images/ico-skybox.svg" alt="Skybox API (Gear VR)"></a>
 	<p><a href="skybox">Skybox API</a></p>
+</div>
+<div class="icon-title"><a href="tracking-blocker"><img src="/images/ico-content-blockers.svg" alt="Tracking Blocker"></a>
+	<p><a href="tracking-blocker">Tracking Blocker</a></p>
 </div>
 <div class="icon-title"><a href="web-bluetooth"><img src="/images/ico-bluetooth.svg" alt="Web Bluetooth"></a>
 	<p><a href="web-bluetooth">Web Bluetooth</a></p>
