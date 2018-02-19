@@ -12,7 +12,7 @@ description: Using Secret Mode in Samsung Internet
 
 ### Step 1
 
-Enabling secret mode is simple:
+To enable Secret Mode:
 Open up Samsung Internet.
 Tap on Tabs in the bottom right corner.
 
