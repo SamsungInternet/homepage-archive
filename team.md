@@ -17,12 +17,12 @@ The Developer Hub is maintained by the Samsung Internet Developer Advocacy team:
   <p class="tags"><span>#WebStandards</span> <span>#ProgressiveWebApps</span> <span>#OpenWeb</span> <span>#InternetPrivacy</span> <span>#DeveloperAdvocacy</span></p>
 </div> 
 
-## Ada Rose Edwards
+## Ada Rose Cannon
 
 <p class="location">Based in the UK</p>
 
 <div class="profile">
-  <img src="images/team/ada.jpg" alt="Ada Rose Edwards"/>
+  <img src="images/team/ada.jpg" alt="Ada Rose Cannon"/>
   <p>Senior Engineer / Developer Advocate for Samsung Internet, Web Fangirl passionate about Web Performance, WebVR and Web Apps.</p>
   <p class="profile-links"><a class="home" href="https://ada.is/">ada.is</a> <a class="twitter" href="https://twitter.com/Lady_Ada_King">@Lady_Ada_King</a> <a class="medium" href="https://medium.com/@Lady_Ada_King">medium.com/@Lady_Ada_King</a> <a class="github" href="https://github.com/AdaRoseEdwards">github.com/AdaRoseEdwards</a></p>
   <p class="tags"><span>#WebVR</span> <span>#ProgressiveWebApps</span> <span>#WebPerformance</span></p>
