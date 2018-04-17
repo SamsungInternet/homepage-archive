@@ -25,3 +25,5 @@ As part of our commitment, we will support diversity & inclusion in the followin
 We’ll also hold ourselves to the same standards where our team is the host, for internal and public events as well. There will be times when event organisers are unable to meet the above rules, especially with smaller scale events or meetups, as and when these occur we will take them on a case by case basis and are happy to discuss the guidelines with organisers and attendees alike.
 
 We also will support and encourage the development of events that cater to specific underrepresented groups as a way to foster inclusion and diversity in our industry. [Check out this post](https://medium.com/samsung-internet-dev/how-exclusive-tech-events-can-foster-an-inclusive-tech-community-db8d57a3a460) on our developer blog for more of our thinking on this topic.
+
+This statement is published under a [Creative Commons Attribution-ShareAlike license](https://creativecommons.org/licenses/by-sa/4.0/).
