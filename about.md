@@ -28,6 +28,7 @@ These articles should provide further background:
 * ["What’s The Deal With The Samsung Internet Browser?"](https://www.smashingmagazine.com/2016/10/whats-the-deal-with-the-samsung-internet-browser/)
 * ["Introducing Samsung Internet for developers"](https://medium.com/samsung-internet-dev/introducing-samsung-internet-for-developers-6c3a3be42f72)
 * ["Think you know the top web browsers?"](https://medium.com/samsung-internet-dev/think-you-know-the-top-web-browsers-458a0a070175)
+* ["Because browser diversity is good for the web"](https://medium.com/samsung-internet-dev/because-browser-diversity-is-good-for-the-web-910d1cbcdf3b)
 
 Key links:
 
