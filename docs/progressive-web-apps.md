@@ -7,7 +7,7 @@ description: Samsung Internet support for PWA APIs
 Progressive Web Apps (PWAs) are regular mobile and desktop web applications that are 
 accessible in any web browser. In browsers that support new open web standards - including 
 [Samsung Internet for Android](/about) - they can provide additional capabilities including 
-offline support and push notifications.
+offline support.
  
 Having the ability to load from a cache means that PWAs can have great performance benefits, 
 providing almost-instant loading times for return visitors.
@@ -80,6 +80,7 @@ specification. Notifications can be triggered via push messages in the service w
  
 ## Further Information
  
+* [Progressive Web Apps - MDN Docs](https://developer.mozilla.org/en-US/Apps/Progressive)
 * [A beginner’s guide to making Progressive Web Apps](https://medium.com/samsung-internet-dev/a-beginners-guide-to-making-progressive-web-apps-beb56224948e) by Uve Tusliani
 * [A beginner’s guide to Service Workers](https://medium.com/samsung-internet-dev/a-beginners-guide-to-service-workers-f76abf1960f6) by Uve Tusliani
 * [The Building Blocks of Progressive Web Apps](https://www.smashingmagazine.com/2016/09/the-building-blocks-of-progressive-web-apps/) by Ada Rose Edwards
