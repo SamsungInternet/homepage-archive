@@ -60,6 +60,14 @@ figcaption {
   font-size: 0.9em;
 }
 
+blockquote {
+  margin: 0 20px;
+}
+
+blockquote + .caption {
+  margin: -0.5em 0 1em 20px;
+}
+
 @media (min-width:700px) {
   .doc-subsection .icon-title {
     flex-basis: 180px;
