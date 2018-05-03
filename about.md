@@ -39,6 +39,9 @@ who tend to rate it highly (at the time of writing, it has a 4.4 out of 5 star r
 > &ldquo;This mobile browser was built specifically for Samsung devices, but people liked it so much that the company made it available for download on all Android phones.&rdquo;
 <p class="caption"><a href="https://www.wired.com/story/alternative-mobile-browsers/">Wired</a></p>
 
+> &ldquo;Once upon a time, no one would even consider using a handset manufacturer’s web browser on its own phones, much less install one on another phone. But here we are today, with Samsung’s Internet Browser being one of the best choices available in the Play Store.&rdquo;
+<p class="caption"><a href="https://www.howtogeek.com/348934/the-best-web-browsers-for-android/">HowToGeek</a></p>
+
 ## Key links
 
 * [Samsung Internet overview page](http://www.samsung.com/global/galaxy/apps/samsung-internet/)
