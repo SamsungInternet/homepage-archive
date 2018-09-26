@@ -1,8 +1,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#151213">
-<base href="https://www.samsunginter.net/homepage-archive/">
-<link rel="icon" href="/images/sdevhubicon.png">
-<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="./images/sdevhubicon.png">
+<link rel="manifest" href="./manifest.json">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <!--
@@ -16,10 +15,10 @@
 </script>
 -->
 
-<script src="/scripts/hamburger-helper.js"></script>
+<script src="./scripts/hamburger-helper.js"></script>
 <meta charset="UTF-8">
 <title>{{site.name}}{% if page.title %} - {{page.title}}{% endif %}</title>
-<link href="/style/global.css" rel="stylesheet" type="text/css">
+<link href="./style/global.css" rel="stylesheet" type="text/css">
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,fetch"></script>
 
 <meta http-equiv="cleartype" content="on" />
@@ -29,9 +28,9 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@samsunginternet" />
 <meta name="twitter:title" content="{{ page.title }} - {{site.name}}" />
-<meta name="twitter:url" content="https://samsunginter.net{{ page.url }}" />{% if page.twitter_image %}
+<meta name="twitter:url" content="https://www.samsunginter.net{{ page.url }}" />{% if page.twitter_image %}
 <meta name="twitter:image" content="{{ page.twitter_image }}">{% elsif page.image contains "http" %}
 <meta name="twitter:image" content="{{ page.image }}">{% elsif page.image %}
-<meta name="twitter:image" content="https://samsunginter.net{{ page.image }}">{% endif %}
+<meta name="twitter:image" content="https://www.samsunginter.net{{ page.image }}">{% endif %}
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{% if page.long_desc %}{{ page.long_desc }}{% else %}{{ page.short_desc }}{% endif %}{% endif %}" />
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{% if page.long_desc %}{{ page.long_desc }}{% else %}{{ page.short_desc }}{% endif %}{% endif %}">
